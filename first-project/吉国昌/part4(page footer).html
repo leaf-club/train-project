@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>part4</title>
+
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url('../static/font/museo/Museo300-Regular.otf');
+        }
+
+        @font-face {
+            font-family: myfont1;
+            src: url('etc/BrandonGrotesque-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: myfont2;
+            src: url('etc/brandon_reg.woff2.ttf');
+        }
+
+        @font-face {
+            font-family: myfont3;
+            src: url('etc/brandon_blk.woff2.ttf')
+        }
+
+        @font-face {
+            font-family: myfont4;
+            src: url('../static/font/museo/Museo100-Regular.otf');
+        }
+
+        footer {
+            background-image: url('../static/img/wave-pattern-gray.png');
+            width: 1500px;
+            height: 953px;
+        }
+
+        footer #page_footer {
+            width: 978px;
+            height: 893px;
+            padding-top: 60px;
+            margin: auto;
+        }
+
+        footer #page_footer .footer_top {
+            height: 385px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left {
+            float: left;
+            width: 306px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate {
+            height: 136.8px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate h4 {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-family: myfont1;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate ul {
+            float: left;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate ul li {
+            float: left;
+            height: 21.6px;
+            width: 138px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate ul #l {
+            margin-right: 30px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate ul a {
+            text-decoration: none;
+            color: #204a65;
+            font-size: 11px;
+            line-height: 22px;
+            text-transform: uppercase;
+            font-family: myfont3;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #navigate ul a:hover {
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #register {
+            margin-top: 15px;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #register a {
+            text-decoration: none;
+            font-size: 11px;
+            line-height: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: myfont1;
+            font-weight: 700;
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #register a:hover {
+            text-decoration: underline;
+        }
+
+        footer #page_footer .footer_top .footer_top_left #tta {
+            margin-top: 20px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid {
+            float: left;
+            margin-left: 30px;
+            width: 306px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #button h4 {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-family: myfont1;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #button p {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-size: 12.5px;
+            line-height: 20px;
+            color: #4e4e4d;
+            font-family: myfont4;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #button form #blank {
+            width: 199px;
+            height: 20px;
+            padding: 6px 8px;
+            border: 0px;
+            font-family: myfont;
+            vertical-align: middle;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #button form #butn {
+            width: 66px;
+            height: 32px;
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+            font-size: 11px;
+            font-weight: 500;
+            font-family: myfont3;
+            color: white;
+            background-color: #204a65;
+            position: relative;
+            top: -1px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #button form #butn:hover {
+            cursor: pointer;
+            background-color: #4b6d81;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards h4 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-family: myfont1;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards ul {
+            list-style-type: none;
+            width: 306px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards ul #mastercard {
+            color: transparent;
+            width: 63px;
+            height: 40px;
+            float: left;
+            background: url('../static/img/combined8.png');
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards ul #jcb {
+            color: transparent;
+            margin-left: 5px;
+            width: 52px;
+            height: 40px;
+            float: left;
+            background: url('../static/img/combined8.png') -70px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards ul #maestro {
+            color: transparent;
+            margin-left: 5px;
+            width: 67px;
+            height: 40px;
+            float: left;
+            background: url('../static/img/combined8.png') -131px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards ul #visa {
+            color: transparent;
+            margin-left: 5px;
+            width: 76px;
+            height: 40px;
+            float: left;
+            background: url('../static/img/combined8.png') -202px;
+        }
+
+        footer #page_footer .footer_top .footer_top_mid #cards #worldpay {
+            color: transparent;
+            float: left;
+            width: 98px;
+            height: 40px;
+            margin-top: 8px;
+            background: url('../static/img/combined8.png') -282px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right {
+            float: left;
+            margin-left: 30px;
+            width: 306px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #facebook h4 {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-family: myfont1;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #facebook #like {
+            height: 84px;
+            margin-bottom: 20px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #facebook #like a img {
+            width: 18%;
+            float: left;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #facebook #like p {
+            margin: 0px;
+            width: 240px;
+            font-size: 10.5px;
+            float: left;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #facebook #like p a {
+            color: #365899;
+            text-decoration: none;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #facebook #like p a:hover {
+            text-decoration: underline;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow {
+            height: 70.8px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow div {
+            margin-bottom: 20px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow div a {
+            font-family: myfont;
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: #e8554e;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow div a:hover {
+            text-decoration: underline;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow ul {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow ul li {
+            float: left;
+            margin-right: 6.5px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow ul #a {
+            color: transparent;
+            float: left;
+            height: 30px;
+            width: 30px;
+            background: url('../static/img/icons.png') -1231.5px -81px;
+            background-color: white;
+
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow ul #b {
+            color: transparent;
+            float: left;
+            height: 30px;
+            width: 30px;
+            background: url('../static/img/icons.png') -1295px -81px;
+            background-color: white;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow ul #c {
+            color: transparent;
+            float: left;
+            height: 30px;
+            width: 30px;
+            background: url('../static/img/icons.png') -1358px -81px;
+            background-color: white;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #follow ul #d {
+            color: transparent;
+            float: left;
+            height: 30px;
+            width: 30px;
+            background: url('../static/img/icons.png') -1423.5px -81px;
+            background-color: white;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #contact {
+            height: 130px;
+            width: 306px;
+            margin-top: 50px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #contact h4 {
+            font-size: 11px;
+            line-height: 11px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            color: #e8554e;
+            font-family: myfont3;
+            font-weight: 100;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #contact section p {
+            margin: 0px;
+            height: 20px;
+            font-size: 12px;
+            line-height: 20px;
+            color: #4e4e4d;
+            font-family: myfont4;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #contact section p a {
+            color: #e8554e;
+            text-decoration: none;
+        }
+
+        footer #page_footer .footer_top .footer_top_right #contact section p a:hover {
+            text-decoration: underline;
+        }
+
+        footer #page_footer .footer_mid {
+            width: 978px;
+            height: 104px;
+            padding: 120px 0 160px;
+        }
+
+        footer #page_footer .footer_mid img {
+            display: block;
+            width: 355px;
+            height: 104px;
+            margin: auto;
+        }
+
+        footer #page_footer .footer_bottom {
+            height: 124px;
+            position: relative;
+        }
+
+        footer #page_footer .footer_bottom img {
+            width: 424px;
+            height: 50px;
+            margin-bottom: 30px;
+        }
+
+        footer #page_footer .footer_bottom p {
+            width: 978px;
+            height: 20px;
+            margin: 0px 0px 20px;
+            font-size: 11.5px;
+            line-height: 20px;
+            color: #a2a39e;
+            cursor: pointer;
+            font-family: myfont;
+            font-weight: 300;
+        }
+
+        footer #page_footer .footer_bottom p a {
+            margin: 0px 0px 20px;
+            font-size: 11.5px;
+            line-height: 20px;
+            color: #a2a39e;
+            font-family: myfont;
+            font-weight: 300;
+            text-decoration: none;
+        }
+
+        footer #page_footer .footer_bottom p #handcraft {
+            position: absolute;
+            right: 0px;
+        }
+
+        footer #page_footer .footer_bottom p a:hover {
+            text-decoration: underline;
+            color: #e8554e;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div id="page_footer">
+            <div class="footer_top">
+
+                <div class="footer_top_left">
+                    <div id="navigate">
+                        <h4>NAVIGATE</h4>
+                        <ul>
+                            <li id="l">
+                                <a href="#">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#">ABOUT</a>
+                            </li>
+                            <li id="l">
+                                <a href="#">MIND</a>
+                            </li>
+                            <li>
+                                <a href="#">CONTACT</a>
+                            </li>
+                            <li id="l">
+                                <a href="#">BODY</a>
+                            </li>
+                            <li>
+                                <a href="#">F.A.Q</a>
+                            </li>
+                            <li id="l">
+                                <a href="#">SOUL</a>
+                            </li>
+                            <li>
+                                <a href="#">BLOG</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="register">
+                        <a href="#">Register your holiday</a>
+                    </div>
+                    <div id="tta">
+                        <a href="#">
+                            <img src="../static/img/tta.png" alt="tta">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_top_mid">
+                    <div id="button">
+                        <h4>STAY IN THE LOOP</h4>
+                        <p>Receive monthly cool ideas, inspiring stories, great reviews and offers.</p>
+                        <form action="#">
+                            <input type="email" name="e-mail" placeholder="Your email address" id="blank">
+                            <input type="submit" value="SUBMIT" id="butn">
+                        </form>
+                    </div>
+                    <div id="cards">
+                        <h4>SUPPORTED CREDIT CARDS</h4>
+                        <ul>
+                            <li>
+                                <a href="#" id="mastercard">mastercard</a>
+                            </li>
+                            <li>
+                                <a href="#" id="jcb">>jcb</a>
+                            </li>
+                            <li>
+                                <a href="#" id="maestro">maestro</a>
+                            </li>
+                            <li>
+                                <a href="#" id="visa">visa</a>
+                            </li>
+                        </ul>
+                        <span>
+                            <a href="#" id="worldpay">worldpay</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="footer_top_right">
+                    <div id="facebook">
+                        <h4>Connect With Combadi</h4>
+                        <div id="like">
+                            <a href="#">
+                                <img src="etc/facebook.PNG" alt="thumb up">
+                            </a>
+                            <p>2.9K people like this.
+                                <a href="#"> Sign Up</a> to see what your friends like.</p>
+                        </div>
+                    </div>
+                    <div id="follow">
+                        <div>
+                            <a href="#">Follow @combaditravel</a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#" id="a">1</a>
+                            </li>
+                            <li>
+                                <a href="#" id="b">2</a>
+                            </li>
+                            <li>
+                                <a href="#" id="c">3</a>
+                            </li>
+                            <li>
+                                <a href="#" id="d">4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="contact">
+                        <h4>COMBADI</h4>
+                        <section>
+                            <p>37 Craven Hill Gardens Bayswater</p>
+                            <p>London,W23EA</p>
+                            <p>UK</p>
+                            <p>Phone:
+                                <a href="#">+44 20 7193 3316</a>
+                            </p>
+                            <p>Email:
+                                <a href="#">info@combadi.com</a>
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_mid">
+                <img src="../static/img/footer-come-back-different.png" alt="come back different">
+            </div>
+
+            <div class="footer_bottom">
+                <img src="../static/img/awwwards.png" alt="awwwards">
+                <p>
+                    © 2014 Combadi. All Rights Reserved. |
+                    <a id="disclaim" href="#">Disclaimer</a>
+                    <a id="handcraft" href="#">Handcrafted by
+                        <strong>RADIAL</strong>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
