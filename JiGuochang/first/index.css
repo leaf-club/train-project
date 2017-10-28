@@ -1,7 +1,7 @@
  /*引入外部字体*/
  @font-face {
     font-family: myfont;
-    src: url('../static/font/museo/Museo300-Regular.otf');
+    src: url('../../first-project/static/font/museo/Museo300-Regular.otf');
 }
 
 @font-face {
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: myfont4;
-    src: url('../static/font/museo/Museo100-Regular.otf');
+    src: url('../../first-project/static/font/museo/Museo100-Regular.otf');
 }
 
 body {
@@ -137,7 +137,7 @@ body {
 }
 
 #Facebook {
-    background: url('../static/img/icons.png') -1233px -17px;
+    background: url('../../first-project/static/img/icons.png') -1233px -17px;
 }
 
 #Twitter {
@@ -146,7 +146,7 @@ body {
 }
 
 #Twitter {
-    background: url('../static/img/icons.png') -1296px -17px;
+    background: url('../../first-project/static/img/icons.png') -1296px -17px;
 }
 
 #Google {
@@ -155,7 +155,7 @@ body {
 }
 
 #Google {
-    background: url('../static/img/icons.png') -1359px -17px;
+    background: url('../../first-project/static/img/icons.png') -1359px -17px;
 }
 
 #Pinterest {
@@ -164,7 +164,7 @@ body {
 }
 
 #Pinterest {
-    background: url('../static/img/icons.png') -1425px -17px;
+    background: url('../../first-project/static/img/icons.png') -1425px -17px;
 }
 
 #search {
@@ -174,13 +174,13 @@ body {
 }
 
 #search {
-    background: url('../static/img/icons.png') -780px -15px;
+    background: url('../../first-project/static/img/icons.png') -780px -15px;
 }
 
 /*背景图片大小及位置*/
 
 #main {
-    background-image: url('../static/img/home-background-mountains.jpg');
+    background-image: url('../../first-project/static/img/home-background-mountains.jpg');
     background-repeat:no-repeat;
     position: relative;
     top: -25px; 
@@ -355,7 +355,7 @@ a {
     width: 80px;
     height: 80px;
     color: transparent;
-    background: url('../static/img/traits.png') -10px -10px no-repeat;
+    background: url('../../first-project/static/img/traits.png') -10px -10px no-repeat;
     position: relative;
     top: -45px;
     left: 120px;
@@ -365,7 +365,7 @@ a {
     width: 80px;
     height: 80px;
     color: transparent;
-    background: url('../static/img/traits.png') -10px -10px no-repeat;
+    background: url('../../first-project/static/img/traits.png') -10px -10px no-repeat;
     position: relative;
     top: 40px;
     left: 120px;
@@ -376,7 +376,7 @@ a {
     width: 80px;
     height: 80px;
     color: transparent;
-    background: url('../static/img/traits.png') -104px -10px no-repeat;
+    background: url('../../first-project/static/img/traits.png') -104px -10px no-repeat;
     position: relative;
     top: -45px;
     left: 120px;
@@ -386,7 +386,7 @@ a {
     width: 80px;
     height: 80px;
     color: transparent;
-    background: url('../static/img/traits.png') -104px -10px no-repeat;
+    background: url('../../first-project/static/img/traits.png') -104px -10px no-repeat;
     position: relative;
     top: 40px;
     left: 120px;
@@ -397,7 +397,7 @@ a {
     width: 80px;
     height: 80px;
     color: transparent;
-    background: url('../static/img/traits.png') -194px -10px no-repeat;
+    background: url('../../first-project/static/img/traits.png') -194px -10px no-repeat;
     position: relative;
     top: -45px;
     left: 120px;
@@ -407,7 +407,7 @@ a {
     width: 80px;
     height: 80px;
     color: transparent;
-    background: url('../static/img/traits.png') -194px -10px no-repeat;
+    background: url('../../first-project/static/img/traits.png') -194px -10px no-repeat;
     position: relative;
     top: 40px;
     left: 120px;
@@ -776,7 +776,7 @@ a {
     height: 580px;
     width: 978px;
     margin: auto;
-    background-image: url('../static/img/wave-pattern-hor-beige.png');
+    background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
     background-repeat: repeat-x;
     position: relative;
 }
@@ -796,14 +796,14 @@ a {
 }
 
 #combadi_blog #tag4 {
-    background-image: url('../static/img/wave-pattern-hor-beige.png');
+    background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
     background-repeat: repeat-x;
     background-position: 50%;
 }
 
 #combadi_blog #tag4 #icon4 {
     height: 104px;
-    background-image: url('../static/img/home-blog-badge.png');
+    background-image: url('../../first-project/static/img/home-blog-badge.png');
     background-repeat: no-repeat;
     background-position: 50%;
     color: transparent;
@@ -905,7 +905,7 @@ a {
 footer {
         position: relative;
         top: -50px;
-        background-image: url('../static/img/wave-pattern-gray.png');
+        background-image: url('../../first-project/static/img/wave-pattern-gray.png');
         width: 1500px;
         height: 953px;
 }
@@ -1080,7 +1080,7 @@ footer #page_footer .footer_top .footer_top_mid #cards ul #mastercard {
     width: 63px;
     height: 40px;
     float: left;
-    background: url('../static/img/combined8.png');
+    background: url('../../first-project/static/img/combined8.png');
 }
 
 footer #page_footer .footer_top .footer_top_mid #cards ul #jcb {
@@ -1089,7 +1089,7 @@ footer #page_footer .footer_top .footer_top_mid #cards ul #jcb {
     width: 52px;
     height: 40px;
     float: left;
-    background: url('../static/img/combined8.png') -70px;
+    background: url('../../first-project/static/img/combined8.png') -70px;
 }
 
 footer #page_footer .footer_top .footer_top_mid #cards ul #maestro {
@@ -1098,7 +1098,7 @@ footer #page_footer .footer_top .footer_top_mid #cards ul #maestro {
     width: 67px;
     height: 40px;
     float: left;
-    background: url('../static/img/combined8.png') -131px;
+    background: url('../../first-project/static/img/combined8.png') -131px;
 }
 
 footer #page_footer .footer_top .footer_top_mid #cards ul #visa {
@@ -1107,7 +1107,7 @@ footer #page_footer .footer_top .footer_top_mid #cards ul #visa {
     width: 76px;
     height: 40px;
     float: left;
-    background: url('../static/img/combined8.png') -202px;
+    background: url('../../first-project/static/img/combined8.png') -202px;
 }
 
 footer #page_footer .footer_top .footer_top_mid #cards #worldpay {
@@ -1116,7 +1116,7 @@ footer #page_footer .footer_top .footer_top_mid #cards #worldpay {
     width: 98px;
     height: 40px;
     margin-top: 8px;
-    background: url('../static/img/combined8.png') -282px;
+    background: url('../../first-project/static/img/combined8.png') -282px;
 }
 
 footer #page_footer .footer_top .footer_top_right {
@@ -1199,7 +1199,7 @@ footer #page_footer .footer_top .footer_top_right #follow ul #a {
     float: left;
     height: 30px;
     width: 30px;
-    background: url('../static/img/icons.png') -1231.5px -81px;
+    background: url('../../first-project/static/img/icons.png') -1231.5px -81px;
     background-color: white;
     
 }
@@ -1208,7 +1208,7 @@ footer #page_footer .footer_top .footer_top_right #follow ul #b {
     float: left;
     height: 30px;
     width: 30px;
-    background: url('../static/img/icons.png') -1295px -81px;
+    background: url('../../first-project/static/img/icons.png') -1295px -81px;
     background-color: white;
 }
 footer #page_footer .footer_top .footer_top_right #follow ul #c {
@@ -1216,7 +1216,7 @@ footer #page_footer .footer_top .footer_top_right #follow ul #c {
     float: left;
     height: 30px;
     width: 30px;
-    background: url('../static/img/icons.png') -1358px -81px;
+    background: url('../../first-project/static/img/icons.png') -1358px -81px;
     background-color: white;
 }
 footer #page_footer .footer_top .footer_top_right #follow ul #d {
@@ -1224,7 +1224,7 @@ footer #page_footer .footer_top .footer_top_right #follow ul #d {
     float: left;
     height: 30px;
     width: 30px;
-    background: url('../static/img/icons.png') -1423.5px -81px;
+    background: url('../../first-project/static/img/icons.png') -1423.5px -81px;
     background-color: white;
 }
 

@@ -5,31 +5,33 @@
     <meta charset="utf-8">
     <title>part1</title>
     <style>
-    /*响应式按钮样式设置*/    
-        /*导入字体文件*/  
+        /*响应式按钮样式设置*/
+
+        /*导入字体文件*/
+
         @font-face {
             font-family: myfont;
-            src: url('../static/font/museo/Museo300-Regular.otf');
+            src: url('../../first-project/static/font/museo/Museo300-Regular.otf');
         }
-        
+
         @font-face {
             font-family: myfont1;
             src: url('etc/BrandonGrotesque-Regular.ttf');
         }
-        
+
         @font-face {
             font-family: myfont2;
             src: url('etc/brandon_reg.woff2.ttf');
         }
-        
+
         @font-face {
             font-family: myfont3;
             src: url('etc/brandon_blk.woff2.ttf')
         }
-        
+
         @font-face {
             font-family: myfont4;
-            src: url('../static/font/museo/Museo100-Regular.otf');
+            src: url('../../first-project/static/font/museo/Museo100-Regular.otf');
         }
 
         #ss {
@@ -38,24 +40,48 @@
             position: relative;
             margin: auto;
         }
+
         /*设置链接属性*/
-        a {text-decoration: none;}
-        .menu:link .in {visibility:hidden;}
-        .menu:visited .in {visibility:hidden;}
-        .menu:hover .out {visibility:hidden;}
-        .menu:hover .in {visibility:initial;}
-        .menu:active .out {visibility:hidden;}
-        .menu:active .in {visibility:initial;}
+
+        a {
+            text-decoration: none;
+        }
+
+        .menu:link .in {
+            visibility: hidden;
+        }
+
+        .menu:visited .in {
+            visibility: hidden;
+        }
+
+        .menu:hover .out {
+            visibility: hidden;
+        }
+
+        .menu:hover .in {
+            visibility: initial;
+        }
+
+        .menu:active .out {
+            visibility: hidden;
+        }
+
+        .menu:active .in {
+            visibility: initial;
+        }
 
         /*里外界面大小及位置设置*/
+
         #mind .in {
             position: absolute;
             left: 0px;
             width: 326px;
             height: 500px;
             margin-top: 0px;
-            box-shadow:0 0 2px grey
+            box-shadow: 0 0 2px grey
         }
+
         #mind .out {
             position: absolute;
             top: 280px;
@@ -64,14 +90,16 @@
             height: 227px;
             margin-top: 0px;
         }
+
         #body .in {
             position: absolute;
             left: 326px;
             width: 326px;
             height: 500px;
             margin: 0px;
-            box-shadow:0 0 2px grey
+            box-shadow: 0 0 2px grey
         }
+
         #body .out {
             position: absolute;
             top: 280px;
@@ -80,14 +108,16 @@
             height: 227px;
             margin: 0px;
         }
+
         #soul .in {
             position: absolute;
             left: 662px;
             width: 326px;
             height: 500px;
             margin: 0px;
-            box-shadow:0 0 2px grey;
+            box-shadow: 0 0 2px grey;
         }
+
         #soul .out {
             position: absolute;
             top: 280px;
@@ -98,58 +128,64 @@
         }
 
         /*三个标志格式设置 tag*指的是隐藏的界面，tag0*指的是外部界面；1-mind  2-body  3-soul */
+
         #tag1 {
             width: 80px;
             height: 80px;
             color: transparent;
-            background: url('../static/img/traits.png') -10px -10px no-repeat;
+            background: url('../../first-project/static/img/traits.png') -10px -10px no-repeat;
             position: relative;
             top: -45px;
             left: 120px;
         }
+
         #tag01 {
             width: 80px;
             height: 80px;
             color: transparent;
-            background: url('../static/img/traits.png') -10px -10px no-repeat;
+            background: url('../../first-project/static/img/traits.png') -10px -10px no-repeat;
             position: relative;
             top: 40px;
             left: 120px;
             z-index: 1;
         }
+
         #tag2 {
             width: 80px;
             height: 80px;
             color: transparent;
-            background: url('../static/img/traits.png') -104px -10px no-repeat;
+            background: url('../../first-project/static/img/traits.png') -104px -10px no-repeat;
             position: relative;
             top: -45px;
             left: 120px;
         }
+
         #tag02 {
             width: 80px;
             height: 80px;
             color: transparent;
-            background: url('../static/img/traits.png') -104px -10px no-repeat;
+            background: url('../../first-project/static/img/traits.png') -104px -10px no-repeat;
             position: relative;
             top: 40px;
             left: 120px;
             z-index: 1;
         }
+
         #tag3 {
             width: 80px;
             height: 80px;
             color: transparent;
-            background: url('../static/img/traits.png') -194px -10px no-repeat;
+            background: url('../../first-project/static/img/traits.png') -194px -10px no-repeat;
             position: relative;
             top: -45px;
             left: 120px;
         }
+
         #tag03 {
             width: 80px;
             height: 80px;
             color: transparent;
-            background: url('../static/img/traits.png') -194px -10px no-repeat;
+            background: url('../../first-project/static/img/traits.png') -194px -10px no-repeat;
             position: relative;
             top: 40px;
             left: 120px;
@@ -157,6 +193,7 @@
         }
 
         /*隐藏界面描述（Description）*/
+
         .D {
             width: 326px;
             margin: auto;
@@ -167,6 +204,7 @@
         }
 
         /*show me the holidays按钮格式设置（link）其实这里并不是一个链接按钮，整个界面都是链接*/
+
         .L {
             font-family: myfont3;
             font-size: 75%;
@@ -182,6 +220,7 @@
         }
 
         /*横穿三个标志的三条短线段格式设置（通过Bout的上边框设置）*/
+
         #mind .Bout {
             height: 100px;
             padding: 10px;
@@ -192,8 +231,9 @@
             text-align: center;
             position: relative;
             top: -23px;
-            border-top:4px solid #71c5d3;
+            border-top: 4px solid #71c5d3;
         }
+
         #body .Bout {
             height: 100px;
             padding: 10px;
@@ -204,8 +244,9 @@
             text-align: center;
             position: relative;
             top: -23px;
-            border-top:4px solid #f5c53d;
+            border-top: 4px solid #f5c53d;
         }
+
         #soul .Bout {
             height: 100px;
             padding: 10px;
@@ -216,10 +257,11 @@
             text-align: center;
             position: relative;
             top: -23px;
-            border-top:4px solid #7eb66f;
+            border-top: 4px solid #7eb66f;
         }
 
         /*内外界面Expand your   Challenge your   Rediscover your格式设置*/
+
         .B {
             font-family: myfont4;
             font-weight: 100;
@@ -227,8 +269,9 @@
             color: black;
             text-align: center;
         }
-        
+
         /*内外界面Mind Body Suol格式的设置 (外灰内红)*/
+
         .B span {
             color: red;
             display: block;
@@ -240,6 +283,7 @@
             text-transform: uppercase;
             line-height: 26px;
         }
+
         .Bout span {
             color: #4e4e4d;
             display: block;
@@ -258,78 +302,82 @@
 
     <div id="ss">
         <a href="/mind/" id="mind" class="menu">
-            
-                    <div class="in">
-                        <img style="border-bottom:4px solid #71c5d3;" src="../static/img/home-mind.png" alt="" width="326"
-                            height="184" />
-                        <div id="tag1">ss</div>
-                        <section>
-                            <div class="D" style="font-family:myfont;text-align:center;width:250px;margin:auto;">Learn something new, change the way you see life, expand your mind &amp; broaden your horizons.</div>
-                            <div class="L">SHOW ME THE HOLIDAYS</div>
-                            <h4 class="B">Expand your
-                                <span>Mind</span>
-                            </h4>
-                        </section>
-                    </div>    
-            
-                    <div class="out">
-                        <div id="tag01">ss</div>
-                        <h4 class="Bout"><br><br><br>Expand your
-                            <span>Mind</span>
-                        </h4>
-                    </div>
-            
-                </a>
-            
-                <a href="/body/" id="body" class="menu">
-                
-                    <div class="in">
-                        <img style="border-bottom:4px solid #f5c53d;" src="../static/img/home-body.png" alt="" width="326"
-                            height="184" />
-                        <div id="tag2">ss</div>
-                        <section>
-                            <div class="D" style="font-family:myfont;text-align:center;width:250px;margin:auto;">Push your boundaries & challenge your body in the most life-changing ways.</div>
-                            <div class="L">SHOW ME THE HOLIDAYS</div>
-                            <h4 class="B">Challenge your
-                                <span>Body</span>
-                            </h4>
-                        </section>
-                    </div>
-                
-                    <div class="out">
-                        <div id="tag02">ss</div>
-                        <h4 class="Bout"><br><br><br>Challenge your
-                            <span>Body</span>
-                        </h4>
-                    </div>
-                
-                </a>
-            
-                <a href="/body/" id="soul" class="menu">
-                
-                    <div class="in">
-                        <img style="border-bottom:4px solid #7eb66f;" src="../static/img/home-soul.png" alt="" width="326" height="184" />
-                        <div id="tag3">ss</div>
-                        <section>
-                            <div class="D" style="font-family:myfont;text-align:center;width:250px;margin:auto;">De-compress, give back to the world, get closer to your sensesand rediscover your soul.</div>
-                            <div class="L">SHOW ME THE HOLIDAYS</div>
-                            <h4 class="B">Rediscover your
-                                <span>Soul</span>
-                            </h4>
-                        </section>
-                    </div>
-                
-                    <div class="out">
-                        <div id="tag03">ss</div>
-                        <h4 class="Bout">
-                            <br>
-                            <br>
-                            <br>Rediscover your
-                            <span>Soul</span>
-                        </h4>
-                    </div>
-                
-                </a>
+
+            <div class="in">
+                <img style="border-bottom:4px solid #71c5d3;" src="../../first-project/static/img/home-mind.png" alt="" width="326" height="184" />
+                <div id="tag1">ss</div>
+                <section>
+                    <div class="D" style="font-family:myfont;text-align:center;width:250px;margin:auto;">Learn something new, change the way you see life, expand your mind &amp; broaden your horizons.</div>
+                    <div class="L">SHOW ME THE HOLIDAYS</div>
+                    <h4 class="B">Expand your
+                        <span>Mind</span>
+                    </h4>
+                </section>
+            </div>
+
+            <div class="out">
+                <div id="tag01">ss</div>
+                <h4 class="Bout">
+                    <br>
+                    <br>
+                    <br>Expand your
+                    <span>Mind</span>
+                </h4>
+            </div>
+
+        </a>
+
+        <a href="/body/" id="body" class="menu">
+
+            <div class="in">
+                <img style="border-bottom:4px solid #f5c53d;" src="../../first-project/static/img/home-body.png" alt="" width="326" height="184" />
+                <div id="tag2">ss</div>
+                <section>
+                    <div class="D" style="font-family:myfont;text-align:center;width:250px;margin:auto;">Push your boundaries & challenge your body in the most life-changing ways.</div>
+                    <div class="L">SHOW ME THE HOLIDAYS</div>
+                    <h4 class="B">Challenge your
+                        <span>Body</span>
+                    </h4>
+                </section>
+            </div>
+
+            <div class="out">
+                <div id="tag02">ss</div>
+                <h4 class="Bout">
+                    <br>
+                    <br>
+                    <br>Challenge your
+                    <span>Body</span>
+                </h4>
+            </div>
+
+        </a>
+
+        <a href="/body/" id="soul" class="menu">
+
+            <div class="in">
+                <img style="border-bottom:4px solid #7eb66f;" src="../../first-project/static/img/home-soul.png" alt="" width="326" height="184" />
+                <div id="tag3">ss</div>
+                <section>
+                    <div class="D" style="font-family:myfont;text-align:center;width:250px;margin:auto;">De-compress, give back to the world, get closer to your sensesand rediscover your soul.</div>
+                    <div class="L">SHOW ME THE HOLIDAYS</div>
+                    <h4 class="B">Rediscover your
+                        <span>Soul</span>
+                    </h4>
+                </section>
+            </div>
+
+            <div class="out">
+                <div id="tag03">ss</div>
+                <h4 class="Bout">
+                    <br>
+                    <br>
+                    <br>Rediscover your
+                    <span>Soul</span>
+                </h4>
+            </div>
+
+        </a>
     </div>
 
 </body>
