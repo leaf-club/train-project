@@ -1,0 +1,180 @@
+<style> 
+    body{}
+    @font-face
+   {
+       font-family: myfirstfont;
+       src: url(../../first-project/static/font/museo/Museo100-Regular.otf);}
+    @font-face {
+        font-family: mysecondfont;
+       src: url(../../first-project/static/font/museo/Museo700-Regular.otf);}
+       @font-face
+       {
+           font-family: mythirdfont;
+           src: url(../../first-project/static/font/museo/Museo300-Regular.otf);}
+           @font-face
+           {
+               font-family: myfouthfont;
+               src: url(../../first-project/static/font/museo/Museo500-Regular.otf);}
+   a:link {text-decoration:none;}
+   a:visited {text-decoration:none;}
+   a:hover {text-decoration:underline;}
+   a:active {text-decoration:underline;}
+   .top1
+     {position: absolute; 
+      top: 0px;
+      background-color: rgb(85, 83, 83);
+      width: 100%;
+      height: 30px;}
+   .top2
+     {position: absolute; 
+      width: 100%;height: 500px;
+      background-image: url('../../first-project/static/img/home-background-mountains.jpg');
+      background-size: 100% 500px;
+      background-repeat: no-repeat;
+     }
+    #combadi{position: absolute;top:30px;left: 250px;}
+    #top2_menu
+    {
+        position: absolute;
+        left:65%;
+        top: 20px;
+        font-family: myfirstfont,sans-serif;
+    }
+    .top2_2
+      {
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         margin: 0;margin-left: -285px;margin-top: -150px;
+      }
+     .top_font
+     {position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: 0;margin-left: -250px;margin-top: 50px;
+        font-family:  myfirstfont,georgia,serif;
+        font-size: 25px;
+     }
+     .p2{text-align: center;}
+   .mbs_picture
+   {
+       
+       margin: 0;margin-top: 460px;
+       text-align: center;
+   }
+    .m
+    {
+        position: absolute;
+        top:550px;
+        left:320px;
+    }
+    .b
+    {
+        position: absolute;
+        top:550px;
+        left:640px;
+    }
+    .s
+    {
+        position: absolute;
+        top:550px;
+        left:960px;
+    }
+    .p3{font-family: myfirstfont} 
+    .p4{font-family: mysecondfont;text-align: center;color: rgb(48, 48, 49);font-size: 25px;}
+    .line1
+        {
+            margin: 0;margin-top: 630px;
+            text-align: center;
+        }
+    h5{color: red;font-family: myfirstfont;}
+    .middle
+    {
+        position: absolute;
+        left:180px;
+    }
+    div.img {
+        margin: 10px;
+        border: 0px solid #ccc;
+        float: left;
+        width: 200px;
+    }
+    
+    div.img:hover {
+        border: 1px solid #777;
+    }
+    
+    div.img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: left;
+    }
+    .p5{font-family: myfouthfont;font-size: 15px;color: rgba(28, 28, 70, 0.904)}
+    .p6{font-family: myfouthfont;font-size: 8px;color: rgba(77, 69, 69, 0.699)}
+    .responsive{height: 320px;width: 250px;top: 0px;}
+    line2{margin: 0;margin-top: 900px;
+          text-align: center;}
+    div.img2 {
+            margin: 10px;
+            border: 0px solid #ccc;
+            float: left;
+            width: 320px;
+        }
+    div.img2:hover {
+            border: 1px solid #777;
+        }
+        
+    div.img2 img {
+            width: 90%;
+            height: auto;}
+    .responsive2{height: 400px;width: 320px;top: 0px;left: 0px;}
+    .p7{font-family: mysecondfont;font-size: 8px;color: gray}
+    .p8{font-family: myfirstfont;font-size: 20px;color: rgba(28, 28, 70, 0.904)}
+    .img2_bottom{float: right;}
+    .bottom
+    {   width: 100%;
+        height: 600px;
+        position: absolute;
+        left: 0px;
+        top: 2000px;
+        background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
+        background-repeat: repeat-x repeat-y;
+        
+    }
+    .table3{position: relative;left: 180px;}
+    .bottom_left{width: 300px;
+                float: left;
+                position: relative;
+                left: 0px;}
+    .bottom_left2
+    {
+        position: relative;
+        left: 200px;
+        top: -283px;
+    }
+    .p9{font-family: mysecondfont;color: red;font-size: 12px;}
+    .p10{font-family: mysecondfont;color: rgba(28, 28, 70, 0.904);font-size: 12px;}
+    .p11{font-family: myfirstfont;color: rgb(36, 33, 33);font-size: 12px;}
+    .bottom_middle
+    {
+        width: 400px;
+        position: relative;
+        top: -81px;
+    }
+    .bottom_right
+    {
+        position: relative;
+        top: -60px;
+    }
+    .bottom_b
+    {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        margin: 0;margin-left: -200px;margin-top: -350px;
+    }
+</style>
