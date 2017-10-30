@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>part2</title>
+
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url('../../first-project/static/font/museo/Museo300-Regular.otf');
+        }
+
+        @font-face {
+            font-family: myfont1;
+            src: url('etc/BrandonGrotesque-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: myfont2;
+            src: url('etc/brandon_reg.woff2.ttf');
+        }
+
+        @font-face {
+            font-family: myfont3;
+            src: url('etc/brandon_blk.woff2.ttf')
+        }
+
+        @font-face {
+            font-family: myfont4;
+            src: url('../../first-project/static/font/museo/Museo100-Regular.otf');
+        }
+
+        #combadi_picks a {
+            display: block;
+            float: left;
+            text-decoration: none;
+        }
+
+        #combadi_picks a:hover figcaption {
+            color: red;
+        }
+
+        #combadi_picks a:hover address {
+            color: black;
+        }
+
+        #combadi_picks figcaption {
+            width: 222px;
+            font-family: myfont;
+            color: #204a65;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+            padding: 0px;
+            margin: 0px;
+            display: block;
+        }
+
+        #combadi_picks figure {
+            margin: 0px;
+        }
+
+        #combadi_picks img {
+            width: 222px;
+            height: 150px;
+            margin-bottom: 16px;
+        }
+
+        #combadi_picks span {
+            position: relative;
+            display: block;
+            float: left;
+            padding: 0px;
+            margin: 0px;
+            width: 111px;
+            height: 4px;
+        }
+
+        #combadi_picks h3 {
+            font-family: myfont3;
+            letter-spacing: 1px;
+            font-size: 12px;
+            color: #e8554e;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            width: 978px;
+            line-height: 20px;
+        }
+
+        #combadi_picks address {
+            color: #a2a39e;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 11px;
+            line-height: 20px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #combadi_picks .special span {
+            position: relative;
+            display: block;
+            float: left;
+            padding: 0px;
+            margin: 0px;
+            width: 74px;
+            height: 4px;
+        }
+
+        #combadi_picks .discount {
+            color: white;
+            position: absolute;
+            top: 0px;
+            margin-left: 32.5px;
+            width: 131px;
+            height: 16px;
+            padding: 7px 13px 5px;
+            font-family: myfont3;
+            font-size: 11px;
+            background-color: red;
+
+        }
+
+        #combadi_picks #img1 {
+            width: 222px;
+            position: absolute;
+            left: 0px;
+        }
+
+        #combadi_picks #img1 #a {
+            top: -20.4px;
+            background-color: #f5c53d;
+            color: transparent;
+        }
+
+        #combadi_picks #img1 #b {
+            top: -20.4px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img2 {
+            width: 222px;
+            position: absolute;
+            left: 252px;
+        }
+
+        #combadi_picks #img2 #a {
+            top: -20.4px;
+            background-color: #f5c53d;
+            color: transparent;
+        }
+
+        #combadi_picks #img2 #b {
+            top: -20.4px;
+            background-color: #71c5d3;
+            color: transparent;
+        }
+
+        #combadi_picks #img3 {
+            width: 222px;
+            position: absolute;
+            left: 504px;
+        }
+
+        #combadi_picks #img3 #a {
+            top: -20.4px;
+            background-color: #71c5d3;
+            color: transparent;
+        }
+
+        #combadi_picks #img3 #b {
+            top: -20.4px;
+            background-color: #71c5d3;
+            color: transparent;
+        }
+
+        #combadi_picks #img4 {
+            width: 222px;
+            position: absolute;
+            left: 756px;
+        }
+
+        #combadi_picks #img4 #a {
+            top: -20.4px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img4 #b {
+            top: -20.4px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img5 {
+            width: 222px;
+            position: absolute;
+            left: 0px;
+            top: 364px;
+        }
+
+        #combadi_picks #img5 #a {
+            top: -20px;
+            background-color: #f5c53d;
+            color: transparent;
+        }
+
+        #combadi_picks #img5 #b {
+            top: -20px;
+            background-color: #f5c53d;
+            color: transparent;
+        }
+
+        #combadi_picks #img6 {
+            width: 222px;
+            position: absolute;
+            left: 252px;
+            top: 364px;
+        }
+
+        #combadi_picks #img6 #a {
+            top: -20px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img6 #b {
+            top: -20px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img7 {
+            width: 222px;
+            position: absolute;
+            left: 504px;
+            top: 364px;
+        }
+
+        #combadi_picks #img7 #a {
+            top: -20px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img7 #b {
+            top: -20px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks #img8 {
+            width: 222px;
+            position: absolute;
+            left: 756px;
+            top: 364px;
+        }
+
+        #combadi_picks #img8 #c {
+            top: -20px;
+            background-color: #f5c53d;
+            color: transparent;
+        }
+
+        #combadi_picks #img8 #d {
+            top: -20px;
+            background-color: #71c5d3;
+            color: transparent;
+        }
+
+        #combadi_picks #img8 #e {
+            top: -20px;
+            background-color: #7eb66f;
+            color: transparent;
+        }
+
+        #combadi_picks {
+            padding-bottom: 50px;
+            padding-top: 50px;
+            width: 978px;
+            margin: auto;
+            background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
+            background-repeat: repeat-x;
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body style="margin-top:0px;">
+
+    <div id="combadi_picks">
+        <h3>COMBAID PICKS</h3>
+
+        <a id="img1" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-1.jpg" alt="img1">
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>Trail running, yoga & whale watching. A trip with you in
+                    <br>mind</figcaptionn>
+            </figure>
+            <address>Canary Island, Spain</address>
+        </a>
+
+        <a id="img2" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks.jpg" alt="img2">
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>Sail into the Ionian wide blue yonder</figcaption>
+            </figure>
+            <address>Ionian Sea, Greece</address>
+        </a>
+
+        <a id="img3" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-3.jpg" alt="img3">
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>Social street work: Voluntourism in Athens</figcaption>
+            </figure>
+            <address>Athens, Greece</address>
+        </a>
+
+        <a id="img4" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-4.jpg" alt="img4">
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>Learn the Sacred Wisdom of the Maya with Miguel Angel Vergara</figcaption>
+            </figure>
+            <address>Mexico, Americas</address>
+        </a>
+
+        <a id="img5" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-5.jpg" alt="img5">
+                <div class="discount">15% OFF THE LIST PRICE</div>
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>The great outdoors fitness bootcamp</figcaptionn>
+            </figure>
+            <address>Andalusia, Spain</address>
+        </a>
+
+        <a id="img6" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-6.jpg" alt="img6">
+                <div class="discount">20% OFF THE LIST PRICE</div>
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>Life changing Greek island
+                    <br>holiday</figcaption>
+            </figure>
+            <address>Skyros, Greece</address>
+        </a>
+
+        <a id="img7" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-7.jpg" alt="img7">
+                <span id="a">1</span>
+                <span id="b">2</span>
+                <figcaption>Crete's secret yoga and meditation retreat revealed</figcaption>
+            </figure>
+            <address>Crete, Greece</address>
+        </a>
+
+        <a id="img8" class="special" href="#">
+            <figure>
+                <img src="../../first-project/static/img/picks-8.jpg" alt="img8">
+                <span id="c">1</span>
+                <span id="d">2</span>
+                <span id="e">3</span>
+                <figcaption>Journey through Himalayan villages</figcaption>
+            </figure>
+            <address>Himalayas, India</address>
+        </a>
+
+    </div>
+
+</body>
+
+</html>

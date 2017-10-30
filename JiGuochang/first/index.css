@@ -1,0 +1,1313 @@
+ /*引入外部字体*/
+ @font-face {
+    font-family: myfont;
+    src: url('../../first-project/static/font/museo/Museo300-Regular.otf');
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url('etc/BrandonGrotesque-Regular.ttf');
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url('etc/brandon_reg.woff2.ttf');
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url('etc/brandon_blk.woff2.ttf')
+}
+
+@font-face {
+    font-family: myfont4;
+    src: url('../../first-project/static/font/museo/Museo100-Regular.otf');
+}
+
+body {
+    margin-top: 0px;
+    background-color: #cbd4d4;
+}
+
+#page {
+    max-width: 1500px;
+    min-width: 900px;
+    height: 3069px;
+    box-shadow: 0 0 2px grey;
+    margin: auto;
+}
+
+/*Tel*/
+
+#tel {
+    color: rgb(170, 170, 170);
+    font-family: myfont;
+    font-size: 105%;
+    position: relative;
+    margin-left: 53%;
+    top: -5px;
+}
+
+/*Skype*/
+
+#skype {
+    left: 50px;
+}
+
+/*label背景*/
+
+#label {
+    width: 100%;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+/*提示框*/
+
+/*Tooltip容器*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+}
+
+/*Tooltip文本*/
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+/*提示框箭头*/
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+/*设置悬停效果*/
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*图像导航菜单*/
+
+#rest_icons {
+    position: relative;
+    top: -10px;
+    display: inline;
+    left: 80px;
+}
+
+#rest_icons li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#rest_icons li,
+#rest_icons a {
+    height: 28px;
+    display: block;
+}
+
+#Facebook {
+    left: 0px;
+    width: 28px;
+}
+
+#Facebook {
+    background: url('../../first-project/static/img/icons.png') -1233px -17px;
+}
+
+#Twitter {
+    left: 38px;
+    width: 28px;
+}
+
+#Twitter {
+    background: url('../../first-project/static/img/icons.png') -1296px -17px;
+}
+
+#Google {
+    left: 76px;
+    width: 28px;
+}
+
+#Google {
+    background: url('../../first-project/static/img/icons.png') -1359px -17px;
+}
+
+#Pinterest {
+    left: 114px;
+    width: 28px;
+}
+
+#Pinterest {
+    background: url('../../first-project/static/img/icons.png') -1425px -17px;
+}
+
+#search {
+    height: 28px;
+    width: 28px;
+    z-index: 0;
+}
+
+#search {
+    background: url('../../first-project/static/img/icons.png') -780px -15px;
+}
+
+/*背景图片大小及位置*/
+
+#main {
+    background-image: url('../../first-project/static/img/home-background-mountains.jpg');
+    background-repeat:no-repeat;
+    position: relative;
+    top: -25px; 
+    background-color: #f6f7f0;
+}
+/*列表定义导航栏*/
+
+#local_link {
+    position: relative;
+    top: 25px;
+    margin-right: 17%;
+    list-style-type: none;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+/*float方法定义水平导航栏*/
+
+#local_link li {
+    float: right;
+    margin: 0.5em;
+    padding: 0.45em 0.35em 0.45em;
+}
+
+/*定义链接颜色字体大小等具体效果*/
+
+#local_link li a {
+    display: block;
+    color: #4b6d81;
+    text-decoration: none;
+    font-family: myfont2;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+/*定义悬停点击效果*/
+
+#local_link li a:link {
+    color: #4b6d81;
+}
+
+#local_link li a:visited {
+    color: #4b6d81;
+}
+
+#local_link li a:hover {
+    color: red;
+}
+
+#local_link li a:active {
+    color: red;
+}
+
+/**/
+
+#main_logo {
+    width: 700.45px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    top: 300px;
+}
+
+#main_logo img {
+    position: relative;
+    top: 60px;
+}
+
+/*响应式按钮样式设置*/
+
+#mid_menu {
+    width: 978px;
+    height: 500px;
+    position: relative;
+    top: -55px;
+    margin: auto;
+}
+
+/*设置链接属性*/
+
+a {
+    text-decoration: none;
+}
+
+.menu:link .in {
+    visibility: hidden;
+}
+
+.menu:visited .in {
+    visibility: hidden;
+}
+
+.menu:hover .out {
+    visibility: hidden;
+}
+
+.menu:hover .in {
+    visibility: initial;
+}
+
+.menu:active .out {
+    visibility: hidden;
+}
+
+.menu:active .in {
+    visibility: initial;
+}
+
+/*里外界面大小及位置设置*/
+
+#mind .in {
+    position: absolute;
+    left: 0px;
+    width: 326px;
+    height: 500px;
+    margin-top: 0px;
+    background-color: white;
+    box-shadow: 0 0 3px grey
+}
+
+#mind .out {
+    position: absolute;
+    left: 0px;
+    top: 280px;
+    width: 326px;
+    height: 227px;
+    margin-top: 0px;
+}
+
+#body .in {
+    position: absolute;
+    left: 326px;
+    width: 326px;
+    height: 500px;
+    margin-top: 0px;
+    background-color: white;
+    box-shadow: 0 0 2px grey
+}
+
+#body .out {
+    position: absolute;
+    left: 326px;
+    top: 280px;
+    width: 326px;
+    height: 227px;
+    margin-top: 0px;
+}
+
+#soul .in {
+    position: absolute;
+    left: 652px;
+    width: 326px;
+    height: 500px;
+    margin-top: 0px;
+    background-color: white;
+    box-shadow: 0 0 2px grey
+}
+
+#soul .out {
+    position: absolute;
+    top: 280px;
+    left: 652px;
+    width: 326px;
+    height: 227px;
+    margin-top: 0px;
+}
+
+/*三个标志格式设置 tag*指的是隐藏的界面，tag0*指的是外部界面；1-mind  2-body  3-soul */
+
+#tag1 {
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    background: url('../../first-project/static/img/traits.png') -10px -10px no-repeat;
+    position: relative;
+    top: -45px;
+    left: 120px;
+}
+
+#tag01 {
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    background: url('../../first-project/static/img/traits.png') -10px -10px no-repeat;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    z-index: 1;
+}
+
+#tag2 {
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    background: url('../../first-project/static/img/traits.png') -104px -10px no-repeat;
+    position: relative;
+    top: -45px;
+    left: 120px;
+}
+
+#tag02 {
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    background: url('../../first-project/static/img/traits.png') -104px -10px no-repeat;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    z-index: 1;
+}
+
+#tag3 {
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    background: url('../../first-project/static/img/traits.png') -194px -10px no-repeat;
+    position: relative;
+    top: -45px;
+    left: 120px;
+}
+
+#tag03 {
+    width: 80px;
+    height: 80px;
+    color: transparent;
+    background: url('../../first-project/static/img/traits.png') -194px -10px no-repeat;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    z-index: 1;
+}
+
+/*隐藏界面描述（Description）*/
+
+.D {
+    width: 326px;
+    margin: auto;
+    color: black;
+    position: relative;
+    line-height: 25px;
+    top: -20px;
+}
+
+/*show me the holidays按钮格式设置（link）其实这里并不是一个链接按钮，整个界面都是链接*/
+
+.L {
+    font-family: myfont3;
+    font-size: 75%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    background-color: red;
+}
+
+/*横穿三个标志的三条短线段格式设置（通过Bout的上边框设置）*/
+
+#mind .Bout {
+    height: 100px;
+    padding: 10px;
+    font-family: myfont4;
+    font-weight: 100;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -23px;
+    border-top: 4px solid #71c5d3;
+}
+
+#body .Bout {
+    height: 100px;
+    padding: 10px;
+    font-family: myfont4;
+    font-weight: 100;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -23px;
+    border-top: 4px solid #f5c53d;
+}
+
+#soul .Bout {
+    height: 100px;
+    padding: 10px;
+    font-family: myfont4;
+    font-weight: 100;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -23px;
+    border-top: 4px solid #7eb66f;
+}
+
+/*内外界面Expand your   Challenge your   Rediscover your格式设置*/
+
+.B {
+    font-family: myfont4;
+    font-weight: 100;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+/*内外界面Mind Body Suol格式的设置 (外灰内红)*/
+
+.B span {
+    color: red;
+    display: block;
+    font-family: myfont3, "brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+.Bout span {
+    color: #4e4e4d;
+    display: block;
+    font-family: myfont3, "brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+#combadi_picks {
+    position: relative;
+    top: -40px;
+}
+
+#combadi_picks a {
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+#combadi_picks a:hover figcaption {
+    color: red;
+}
+
+#combadi_picks a:hover address {
+    color: black;
+}
+
+
+#combadi_picks figcaption {
+    width: 222px;
+    font-family: myfont;
+    color: #204a65;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+#combadi_picks figure {
+    margin: 0px;
+}
+
+#combadi_picks img {
+    width: 222px;
+    height: 150px;
+    margin-bottom: 16px;
+}
+
+#combadi_picks span {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 111px;
+    height: 4px;
+}
+
+#combadi_picks h3 {
+    font-family: myfont3;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #e8554e;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 978px;
+    line-height: 20px;
+}
+
+#combadi_picks address {
+    color: #a2a39e;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#combadi_picks .special span {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 74px;
+    height: 4px;
+}
+
+#combadi_picks .discount {
+    position: absolute;
+    top: 0px;
+    margin-left: 32.5px;
+    width: 131px;
+    text-align: center;
+    height: 16px;
+    padding: 7px 13px 5px;
+    font-family: myfont3;
+    font-size: 11px;
+    background-color: #e8554e;
+    color: white;
+}
+
+#combadi_picks #img1 {
+    width: 222px;
+    position: absolute;
+    left: 0px;
+}
+
+#combadi_picks #img1 #a {
+    top: -20.4px;
+    background-color: #f5c53d;
+    color: transparent;
+}
+
+#combadi_picks #img1 #b {
+    top: -20.4px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img2 {
+    width: 222px;
+    position: absolute;
+    left: 252px;
+}
+
+#combadi_picks #img2 #a {
+    top: -20.4px;
+    background-color: #f5c53d;
+    color: transparent;
+}
+
+#combadi_picks #img2 #b {
+    top: -20.4px;
+    background-color: #71c5d3;
+    color: transparent;
+}
+
+#combadi_picks #img3 {
+    width: 222px;
+    position: absolute;
+    left: 504px;
+}
+
+#combadi_picks #img3 #a {
+    top: -20.4px;
+    background-color: #71c5d3;
+    color: transparent;
+}
+
+#combadi_picks #img3 #b {
+    top: -20.4px;
+    background-color: #71c5d3;
+    color: transparent;
+}
+
+#combadi_picks #img4 {
+    width: 222px;
+    position: absolute;
+    left: 756px;
+}
+
+#combadi_picks #img4 #a {
+    top: -20.4px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img4 #b {
+    top: -20.4px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img5 {
+    width: 222px;
+    position: absolute;
+    left: 0px;
+    top: 364px;
+}
+
+#combadi_picks #img5 #a {
+    top: -20px;
+    background-color: #f5c53d;
+    color: transparent;
+}
+
+#combadi_picks #img5 #b {
+    top: -20px;
+    background-color: #f5c53d;
+    color: transparent;
+}
+
+#combadi_picks #img6 {
+    width: 222px;
+    position: absolute;
+    left: 252px;
+    top: 364px;
+}
+
+#combadi_picks #img6 #a {
+    top: -20px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img6 #b {
+    top: -20px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img7 {
+    width: 222px;
+    position: absolute;
+    left: 504px;
+    top: 364px;
+}
+
+#combadi_picks #img7 #a {
+    top: -20px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img7 #b {
+    top: -20px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks #img8 {
+    width: 222px;
+    position: absolute;
+    left: 756px;
+    top: 364px;
+}
+
+#combadi_picks #img8 #c {
+    top: -20px;
+    background-color: #f5c53d;
+    color: transparent;
+}
+
+#combadi_picks #img8 #d {
+    top: -20px;
+    background-color: #71c5d3;
+    color: transparent;
+}
+
+#combadi_picks #img8 #e {
+    top: -20px;
+    background-color: #7eb66f;
+    color: transparent;
+}
+
+#combadi_picks {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 580px;
+    width: 978px;
+    margin: auto;
+    background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+#combadi_blog {
+    position: relative;
+    top: -40px;
+    width: 978px;
+    height: 559px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#combadi_blog .combadi_blog_link {
+    text-decoration: none;
+}
+
+#combadi_blog #tag4 {
+    background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
+    background-repeat: repeat-x;
+    background-position: 50%;
+}
+
+#combadi_blog #tag4 #icon4 {
+    height: 104px;
+    background-image: url('../../first-project/static/img/home-blog-badge.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: transparent;
+    margin-bottom: 30px;
+}
+
+#combadi_blog #tag4 .combadi_blog_link {
+    font-family: myfont3;
+    color: #a2a39e;
+    letter-spacing: 1px;
+    font-size: 11px;
+    position: absolute;
+    right: 0px;
+}
+
+#combadi_blog #tag4 .combadi_blog_link:hover {
+    color: red;
+}
+
+#combadi_blog #listed_blogs {
+    width: 978px;
+}
+
+#combadi_blog #listed_blogs article {
+    float: left;
+    margin-left: 30px;
+    width: 306px;
+}
+
+#combadi_blog #listed_blogs #left {
+    margin-left: 0px;
+}
+
+#combadi_blog #listed_blogs article a {
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 256px;
+    height: 385px;
+    padding: 20px 25px;
+}
+
+#combadi_blog #listed_blogs article a:hover {
+    box-shadow: 0 0 3px grey;
+}
+
+#combadi_blog #listed_blogs article a:hover section h2 {
+    color: red;
+}
+
+#combadi_blog #listed_blogs article a:hover section span {
+    color: #4e4e4d;
+}
+
+#combadi_blog #listed_blogs article a figure {
+    height: 182px;
+    margin: 0px 0px 20px;
+}
+
+#combadi_blog #listed_blogs article a figure img {
+    position: relative;
+    top: -20px;
+    left: -25px;
+    width: 306px;
+}
+
+#combadi_blog #listed_blogs article a section h6 {
+    height: 20px;
+    width: 256px;
+    margin: 0px;
+    font-family: myfont1;
+    font-size: 11px;
+    font-weight: 700;
+    color: #a2a39e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#combadi_blog #listed_blogs article a section h2 {
+    margin: 0px 0px 20px;
+    font-family: myfont4;
+    font-size: 20px;
+    font-weight: 300;
+    color: #204a65;
+    line-height: 26px;
+}
+
+#combadi_blog #listed_blogs article a section span {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    font-family: myfont1;
+    font-size: 11px;
+    font-weight: 700;
+    color: #a2a39e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer {
+        position: relative;
+        top: -50px;
+        background-image: url('../../first-project/static/img/wave-pattern-gray.png');
+        width: 1500px;
+        height: 953px;
+}
+
+footer #page_footer {
+    width: 978px;
+    height: 893px;
+    padding-top: 60px;
+    margin: auto;
+}
+
+footer #page_footer .footer_top {
+    height: 385px;
+}
+
+footer #page_footer .footer_top .footer_top_left {
+    float: left;
+    width: 306px;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate {
+    height: 136.8px;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: myfont1;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate ul {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate ul li {
+    float: left;
+    height: 21.6px;
+    width: 138px;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate ul #l {
+    margin-right: 30px;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate ul a {
+    text-decoration: none;
+    color: #204a65;
+    font-size: 11px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: myfont3;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+footer #page_footer .footer_top .footer_top_left #navigate ul a:hover {
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_left #register {
+    margin-top: 15px;
+}
+
+footer #page_footer .footer_top .footer_top_left #register a {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: myfont1;
+    font-weight: 700;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_left #register a:hover {
+    text-decoration: underline;
+}
+
+footer #page_footer .footer_top .footer_top_left #tta {
+    margin-top: 20px;
+}
+
+footer #page_footer .footer_top .footer_top_mid {
+    float: left;
+    margin-left: 30px;
+    width: 306px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #button h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: myfont1;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_mid #button p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 12.5px;
+    line-height: 20px;
+    color: #4e4e4d;
+    font-family: myfont4;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #button form #blank {
+    width: 199px;
+    height: 20px;
+    padding: 6px 8px;
+    border: 0px;
+    font-family: myfont;
+    vertical-align: middle;
+}
+
+footer #page_footer .footer_top .footer_top_mid #button form #butn {
+    width: 66px;
+    height: 32px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: myfont3;
+    color: white;
+    background-color: #204a65;
+    position: relative;
+    top: -1px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #button form #butn:hover {
+    background-color: #4b6d81;
+    cursor: pointer;
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: myfont1;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards ul {
+    list-style-type: none;
+    width: 306px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards ul #mastercard {
+    color: transparent;
+    width: 63px;
+    height: 40px;
+    float: left;
+    background: url('../../first-project/static/img/combined8.png');
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards ul #jcb {
+    color: transparent;
+    margin-left: 5px;
+    width: 52px;
+    height: 40px;
+    float: left;
+    background: url('../../first-project/static/img/combined8.png') -70px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards ul #maestro {
+    color: transparent;
+    margin-left: 5px;
+    width: 67px;
+    height: 40px;
+    float: left;
+    background: url('../../first-project/static/img/combined8.png') -131px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards ul #visa {
+    color: transparent;
+    margin-left: 5px;
+    width: 76px;
+    height: 40px;
+    float: left;
+    background: url('../../first-project/static/img/combined8.png') -202px;
+}
+
+footer #page_footer .footer_top .footer_top_mid #cards #worldpay {
+    color: transparent;
+    float: left;
+    width: 98px;
+    height: 40px;
+    margin-top: 8px;
+    background: url('../../first-project/static/img/combined8.png') -282px;
+}
+
+footer #page_footer .footer_top .footer_top_right {
+    float: left;
+    margin-left: 30px;
+    width: 306px;
+}
+
+footer #page_footer .footer_top .footer_top_right #facebook h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: myfont1;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_right #facebook #like {
+    height: 84px;
+    margin-bottom: 20px;
+}
+
+footer #page_footer .footer_top .footer_top_right #facebook #like a img {
+    width: 18%;
+    float: left;
+}
+
+footer #page_footer .footer_top .footer_top_right #facebook #like p {
+    margin: 0px;
+    width: 240px;
+    font-size: 10.5px;
+    float: left;
+} 
+
+footer #page_footer .footer_top .footer_top_right #facebook #like p a {
+    color: #365899;
+    text-decoration: none;
+}
+
+footer #page_footer .footer_top .footer_top_right #facebook #like p a:hover {
+    text-decoration: underline;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow {
+    height: 70.8px;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow div {
+    margin-bottom: 20px;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow div a {
+    font-family: myfont;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow div a:hover {
+    text-decoration: underline;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow ul li {
+    float: left;
+    margin-right: 6.5px;
+}
+
+footer #page_footer .footer_top .footer_top_right #follow ul #a {
+    color: transparent; 
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: url('../../first-project/static/img/icons.png') -1231.5px -81px;
+    background-color: white;
+    
+}
+footer #page_footer .footer_top .footer_top_right #follow ul #b {
+    color: transparent; 
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: url('../../first-project/static/img/icons.png') -1295px -81px;
+    background-color: white;
+}
+footer #page_footer .footer_top .footer_top_right #follow ul #c {
+    color: transparent; 
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: url('../../first-project/static/img/icons.png') -1358px -81px;
+    background-color: white;
+}
+footer #page_footer .footer_top .footer_top_right #follow ul #d {
+    color: transparent; 
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: url('../../first-project/static/img/icons.png') -1423.5px -81px;
+    background-color: white;
+}
+
+footer #page_footer .footer_top .footer_top_right #contact {
+    height: 130px;
+    width: 306px;
+    margin-top: 50px;
+}
+footer #page_footer .footer_top .footer_top_right #contact h4 {
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #e8554e;
+    font-family: myfont3;
+    font-weight: 100;
+}
+footer #page_footer .footer_top .footer_top_right #contact section p {
+    margin: 0px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4e4e4d;
+    font-family: myfont4;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+footer #page_footer .footer_top .footer_top_right #contact section p a {
+    color: #e8554e;
+    text-decoration: none;
+}
+footer #page_footer .footer_top .footer_top_right #contact section p a:hover {
+    text-decoration: underline;
+}
+footer #page_footer .footer_mid{
+    width: 978px;
+    height: 104px;
+    padding: 120px 0 160px;
+}
+footer #page_footer .footer_mid img {
+    display: block;
+    width: 355px;
+    height: 104px;
+    margin: auto;
+}
+footer #page_footer .footer_bottom {
+    height: 124px;
+    position: relative;
+}
+footer #page_footer .footer_bottom img {
+    width: 424px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+footer #page_footer .footer_bottom p {
+    width: 978px;
+    height: 20px;
+    margin: 0px 0px 20px;
+    font-size: 11.5px;
+    line-height: 20px;
+    color: #a2a39e;
+    cursor: default;
+    font-family: myfont ;
+    font-weight: 300;
+}
+footer #page_footer .footer_bottom p a {
+    margin: 0px 0px 20px;
+    font-size: 11.5px;
+    line-height: 20px;
+    color: #a2a39e;
+    font-family: myfont ;
+    font-weight: 300;
+    text-decoration: none;
+}
+footer #page_footer .footer_bottom p #handcraft {
+    position: absolute;
+    right: 0px;
+}
+footer #page_footer .footer_bottom p a:hover {
+    text-decoration: underline;
+    color: #e8554e;
+}
+
+footer #page_footer .footer_bottom p #handcraft:hover {
+    color: #00c2dc;
+}    
