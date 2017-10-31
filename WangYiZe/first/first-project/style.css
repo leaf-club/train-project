@@ -1,0 +1,432 @@
+/*引入外部字体*/
+@font-face{
+    font-family: 'Georgia';
+    src: url(static/font/georgia/Georgia.ttf);
+}
+@font-face{
+    font-family: 'Museo100';
+    src: url(static/font/museo/Museo100-Regular.otf);
+}
+@font-face{
+    font-family: 'Museo300';
+    src: url(static/font/museo/Museo300-Regular.otf);
+}
+@font-face{
+    font-family: 'Museo500';
+    src: url(static/font/museo/Museo500-Regular.otf);
+}
+@font-face{
+    font-family: 'Museo700';
+    src: url(static/font/museo/Museo700-Regular.otf);
+}
+@font-face{
+    font-family: 'Museo900';
+    src: url(static/font/museo/Museo900-Regular.otf);
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(190, 188, 188);
+}
+
+/*登陆标题栏的CSS样式*/
+#signinline{
+    height: 24px;
+    width: 950px;
+    margin:0 auto;
+    background-color: darkslategrey;
+}                                             
+#signinline p{
+    float: left;
+    position: relative;
+    left: 450px;
+    bottom: 12px;
+    font-family: 'Museo100';
+    font-size: 15px;
+    color: lightgray;
+    text-align: center;
+}
+#signinline a{
+    float: left;
+    position: relative;
+    left: 500px;
+}
+/*Facebook标题栏样式*/
+#signinline a .facebook{
+    float: left;
+    position: relative;
+    left: 50px;
+    width: 50px;
+    height: 24px;
+    overflow: hidden;
+}
+#signinline a .facebook img{
+    height: 102px; 
+    width: 1200px;
+    position: relative;
+    bottom: 14px;
+    right: 985px;
+}
+/*ins标题栏样式*/
+#signinline a .ins{
+    float: left;
+    position: relative;
+    left: 50px;
+    width: 50px;
+    height: 24px;
+    overflow: hidden;
+}
+#signinline a .ins img{
+    height: 102px; 
+    width: 1200px;
+    position: relative;
+    bottom: 14px;
+    right: 1037px;
+}
+/*谷歌标题栏样式*/
+#signinline a .google{
+    float: left;
+    position: relative;
+    left: 50px;
+    width: 50px;
+    height: 24px;
+    overflow: hidden;
+}
+#signinline a .google img{
+    height: 102px; 
+    width: 1200px;
+    position: relative;
+    bottom: 14px;
+    right: 1089px;
+}
+/*微博标题栏样式*/
+#signinline a .weibo{
+    float: left;
+    position: relative;
+    left: 50px;
+    width: 50px;
+    height: 24px;
+    overflow: hidden;
+}
+#signinline a .weibo img{
+    height: 102px; 
+    width: 1200px;
+    position: relative;
+    bottom: 14px;
+    right: 1141px;
+}
+/*标题栏样式*/
+#headline{
+    width: 950px;
+    height: 376px;
+    margin: 0 auto;
+    background-image: url("static/img/home-background-mountains.jpg");
+    background-size: 100% 100%;
+}
+/*logo样式*/
+#headline .headline_headimg{
+    float: left;
+    height: 65px;
+    width: 170px;
+    background-image: url(static/img/combadi-logo-sans.png);
+    background-repeat: no-repeat;
+    background-position: 0px 23px; 
+}
+/*超链接链表样式*/
+#headline .headline_list{
+    float:left;
+    position: relative;
+    left: 200px;
+    top: 5px;
+}
+#headline .headline_list li{
+    float: left;
+    list-style: none;
+    width: 60px;
+}
+#headline .headline_list li a{
+    text-decoration: none;
+    font-family: 'Museo500';
+    font-size: 12px;
+    text-align: center;
+    color: rgb(52, 78, 75);
+}
+/*搜索框*/
+#headline .headline_list li .special{
+    color: gray;
+}
+#headline .search{
+    padding: 0px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 5px;
+    height: 57px;
+    width: 58px;
+    overflow: hidden;
+} 
+#headline .search img{
+    width: 1350px;
+    height: 115px;
+    position: relative;
+    right: 704px;
+}
+/*正文样式*/
+#headline .context .container{
+    float: left;
+    position: relative;
+    right: 40px;
+    top: 50px;
+}
+#headline .context .word{
+    clear: both;
+    position: relative;
+    top: 70px;
+    margin: auto;
+    width: 330px;
+    text-align: center;
+}
+#headline .context .word p{
+    color: darkslategray;
+    font-size: 14px;
+    font-family: Georgia;
+}
+/*正文样式*/
+#content{
+    width: 950px;
+    height: 1300px;
+    margin: 0 auto;
+    background-color: beige;
+}
+#content .mbs{
+    width: 630px;
+    height: 200px;
+    margin: 0 auto;
+}
+#content .mbs span{
+    width: 210px;
+    height: 3px;
+    float: left;
+    position: relative;
+    bottom: 8px;
+}
+#content .mbs .m hr{height: 5px; border: none; border-top: 5px solid lightskyblue;}
+#content .mbs .b hr{height: 5px; border: none; border-top: 5px solid gold;}
+#content .mbs .s hr{height: 5px; border: none; border-top: 5px solid lightgreen;}
+#content .mbs div{
+    width: 86px;
+    height: 86px;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+    overflow: hidden;
+}
+#content .mbs .b img{position: relative; right: 96px;}
+#content .mbs .s img{position: relative; right: 192px;}
+#content .mbs .small{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-family: Museo100;
+    font-size: 14px;
+    color: gray;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 0;
+}
+#content .mbs .big{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-family: Museo700;
+    font-size: 24px;
+    color: slategray;
+    margin: 0 auto;
+    padding: 0;
+}
+#content .hrtop{
+    position: relative;
+    bottom: 50px;
+    width: 630px;
+    height: 9px;
+    margin:0 auto;
+    background-image: url(static/img/wave-pattern-hor-beige.png);
+}
+#content .picks{
+    width: 630px;
+    position: relative;
+    bottom: 30px;
+    margin: auto;
+}
+#content .picks img{width: 150px;height: auto;margin-bottom: 0;}
+#content .picks .between{width: 10px;height: 200px;}
+#content .picks .head{font-family: Museo700; color: slategray;}
+#content .picks div{
+    width: 150px;
+    height: 250px;
+    float: left;
+}
+#content .picks hr{
+    margin-top: 0;
+    height: 5px;
+    border: none;
+    border-top: 5px solid rgb(65, 194, 65);
+}
+#content .picks .text{
+    width: 140px;
+    height: 65px;
+    font-family: Georgia;
+    font-size: 12px;
+    color: rgb(59, 57, 57);
+}
+#content .picks .location{
+    width: 140px;
+    position: relative;
+    bottom: 5px;
+    font-family: Georgia;
+    font-size: 10px;
+    color: gray;
+    font-style: italic;
+}
+#content .Blog{
+    margin: 0 auto;
+    width: 630px;
+    height: 600px;
+    text-align: center;
+    background-image: url(static/img/wave-pattern-hor-beige.png);
+    background-position:0 50px;
+    background-repeat: repeat-x;
+}
+#content .Blog .hr p{
+  position: relative;
+  left: 240px;
+  bottom: 100px;
+    font-size: 7px;
+    font-family: Museo500;
+    color: gray;
+}
+#content .Blog .blog{
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    top: 10px;
+    width: 203px;
+    height: 300px;
+    background-color: white;
+}
+#content .Blog .blog img{width: 203px;height: auto;}
+#content .Blog .between1{float:left;width: 10px; height: 300px;}
+#content .Blog .blog .time{
+    padding: 0 20px 0 10px;
+    margin: 0px;
+    font-family: Museo300;
+    font-size: 10px;
+    color: gray;
+}
+#content .Blog .blog .introduction{
+    height: 80px;
+    padding: 0 20px 0 10px;
+    margin: 0px;
+    font-family: Museo100;
+    font-size: 16px;
+    color: black;
+}
+#content .Blog .blog a{
+    font-family: Museo300;
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+
+}
+/*结尾样式*/
+#footline{
+    width: 950px;
+    height: 586px;
+    margin: 0 auto;
+    background-image: url(static/img/wave-pattern-gray.png);
+}
+#footline .container{
+    width: 630px;
+    height: auto;
+    margin: auto;
+}
+#footline .container .first{
+    padding: 0px;
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+#footline .container .between2{float:left;width: 15px; height: 300px;}
+#footline .container p{font-family: Museo500;font-size: 16px; color: red;}
+#footline .container .first ul{float: left;width: 50px;position: relative;right: 35px;}
+#footline .container .first li{list-style: none;}
+#footline .container .first li a{text-decoration: none; font-family: Museo300;}
+#footline .container .second{
+    padding: 0px;
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+#footline .container .common{font-family: Museo100;color: black;font-size: 15px;}
+#footline .container .second img{width: 210px;height: auto;}
+#footline .container .second form input:first-child{width: 130px;}
+#footline .container .second form input:not(:first-child){width: 60px;}
+#footline .container .third{
+    padding: 0px;
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+#footline .container .third div{
+    margin: 5px;
+    float: left;
+    width: 30px;;
+    height: 30px;
+    background-color: white;
+    overflow: hidden;
+}
+#footline .container .third img{height: 128px; width: auto;}
+#footline .container .third .facebook img{
+    position: relative;
+    bottom: 17px;
+    right: 335px;
+}
+#footline .container .third .twitter img{
+    position: relative;
+    bottom: 17px;
+    right: 272px;
+}
+#footline .container .third .google img{
+    position: relative;
+    bottom: 17px;
+    right: 1360px;
+}
+#footline .container .third .weibo img{
+    position: relative;
+    bottom: 17px;
+    right: 1423px;
+}
+
+
+#footline .container .third a{text-decoration: none; color: red;}
+#footline .container .backimg{
+    text-align:center;
+    width:630px;
+    clear: both;
+    position: relative;
+    top:70px;
+}
+#footline .container .awww{
+    margin: 0px;
+    text-align:center;
+    width:630px;
+    position: relative;
+    top: 100px;
+}
