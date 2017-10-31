@@ -1,0 +1,695 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    height:100%;
+    width:auto;
+    background-color:#cbd4d4;
+}
+/*总页面*/
+#wrapper{
+    height:100%;
+    width:1500px;
+    margin:0 auto;
+    background-color: #f6f7f0;
+}
+/*顶部导航*/
+#lead{
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #272727;
+}
+#lead li{
+    float:right;
+}
+.imglead{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(../../../first-project/static/img/icons.png)
+}
+#phonenumber{
+    display: inline-block;
+    height:34px;
+    width:auto;
+    font-family: Georgia;
+}
+#phonenumber p{
+    color:#bebebe;
+    margin: 5px;
+    font-size: 17px;
+}
+#pinterest{
+    background-position: -1424px -15px;
+}
+#google{
+    background-position: -1360px -15px;
+}
+#twitter{
+    background-position: -1296px -15px;
+}
+#facebook{
+    background-position: -1232px -15px;
+
+}
+#scall{
+    display: inline-block;
+    height: 27px;
+    width: 58px;
+    background-image: url(../../../first-project/static/img/callbutton_24px.png);
+    background-position: 2px 3px;
+}
+#call{
+    margin-top: 5px;
+}
+ul#lead li{
+    display:block;
+    margin-left: 20px;
+}
+#phonenumber{
+    display:block;
+    margin-right:60px;
+}
+ul#lead>li:first-child{
+    margin-right: 300px;
+}
+ a#pinterest:hover{
+     background-position: -1424px -78px;
+}
+a#google:hover{
+     background-position: -1360px -78px;
+}
+a#twitter:hover{
+     background-position: -1296px -78px;
+}
+a#facebook:hover{
+    background-position: -1232px -78px;
+}
+/*头部大标题come back differernt*/
+#home{
+    height:598px;
+    width:1500px;
+    margin-bottom: 140px;
+    background-image: url(../../../first-project/static/img/home-background-mountains.jpg);
+    position: relative;
+}
+#leadblock{
+    display: block;
+    position: relative;
+    height:100px;
+    width:100%;
+}
+/*combadilogo*/
+#brand{
+    display:block;
+    height: 20px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: 260px;
+    background-image: url(../../../first-project/static/img/combadi-logo-sans.png)
+}
+/*导航栏*/
+#home ul{
+    list-style-type: none;
+}
+#home li{
+    float:right;
+}
+#home nav{
+    display: block;
+    height:20px;
+    width:500px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 300px;
+}
+#home li a,#point{
+    display: block;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#point{
+    margin-left: 15px;
+    margin-right: -15px;
+}
+.tag1,#point{
+    color:#adadad;
+}
+.tag2{
+    color:#204a65;
+}
+.tag1 , .tag2{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.tag1:hover ,.tag2:hover{
+    color: red;
+}
+.search{
+    height: 35px;
+    width: 35px;
+    background-image: url(../../../first-project/static/img/icons.png);
+    background-position:  -783px -15px;
+    margin-top: -6px;
+}
+/*大标题*/
+#title{
+    display: block;
+    height: 400px;
+    width: auto;
+}
+#title1{
+    width: 900px;
+    margin: 90px auto 30px;
+    text-align: center;
+}
+/*自定义字体*/
+@font-face{
+    font-family: "myFirstFont";
+    src: url(../fonts/BrandonGrotesque-Regular.ttf)
+}
+@font-face{
+    font-family: "Museo 100";
+    src: url(../../../first-project/static/fonts/museo/Museo100-Regular.otf)
+}
+#title span{
+    display:inline-block;
+    vertical-align: middle;
+    text-transform:uppercase;
+    color: #4e4e4d;
+    font-family: "myFirstFont";
+}
+#birdtitle{
+    height:151px;
+    width: 151px;
+    background-image: url(../../../first-project/static/img/home-title-birdie.png);
+}
+#title2{
+    display: block;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:"Museo 100", Georgia, serif;
+}
+/*三个颜色标签*/
+#blue,#yellow,#green{
+    height: 200px;
+    width: 325px;
+    position: absolute;
+}
+#blue{
+    left:261px;
+    bottom: -161px;
+}
+#yellow{
+    left:587px;
+    bottom: -161px;
+}
+#green{
+    left:913px;
+    bottom: -161px;
+}
+#blue span,#yellow span,#green span{
+    display: inline-block;
+    vertical-align: middle;
+}
+#bluem,#yellowb,#greens{
+    height: 74px;
+    width: 68px;
+    background-image: url(../../../first-project/static/img/traits.png)
+}
+#bluem{
+    background-position: -14px -11px;
+}
+#yellowb{
+    background-position: -110px -11px;
+}
+#greens{
+    background-position: -206px -11px;
+}
+#bluestuff, #yellowstuff, #greenstuff{
+    margin-right: -5px;
+    width: 128.5px;
+    height: 4px;
+}
+#bluestuff2, #yellowstuff2, #greenstuff2{
+    margin-left: -5px;
+    width: 128px;
+    height: 4px;
+}
+#bluestuff,#bluestuff2{
+    background-color: #71c5d3;
+
+}
+#yellowstuff,#yellowstuff2{
+    background-color: #f5c53d;
+}
+#greenstuff,#greenstuff2{
+    background-color: #7eb66f;
+}
+#blue h2, #yellow h2, #green h2{
+    text-align: center;
+    font-family: "Museo 100";
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #787876;
+    margin-top: 10px;
+}
+#blue h1, #yellow h1, #green h1{
+    text-align: center;
+    font-family: "myFirstFont";
+    font-size: 24px;
+    font-weight: 700;
+    color:#4e4e4d;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+/*第一个section*/
+#container{
+    width:978px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    background-image: url(../../../first-project/static/img/wave-pattern-hor-beige.png);
+    background-repeat: repeat-x;
+    line-height: 20px;    
+}
+#stitle{
+    font-family: "myFirstFont";
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #e8554e;
+}
+#container #p1,#container #p5{
+    margin-left: 0px;
+}
+/*六个图片链接*/
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
+    text-decoration: none;
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 222px;
+    min-height: 250px;
+    float: left;
+}
+/*图片装饰*/
+#block1{
+    display: block;
+    width: 50%;
+    height:4px;
+    background-color: #f5c53d;
+    margin-top: -4px;
+}
+#block2{
+    display: block;
+    width: 50%;
+    height:4px;
+    background-color: #7eb66f;
+    margin-top: -4px;
+    float: right;
+}
+#block3{
+    display: block;
+    width: 50%;
+    height:4px;
+    background-color: #f5c53d;
+    margin-top: -4px;
+}
+#block4{
+    display: block;
+    width: 50%;
+    height:4px;
+    background-color: #71c5d3;
+    margin-top: -4px;
+    float: right;
+}
+#block5{
+    display: block;
+    width: 100%;
+    height:4px;
+    background-color: #f5c53d;
+    margin-top: -4px;
+}
+#block6{
+    display: block;
+    width: 100%;
+    height:4px;
+    background-color: #7eb66f;
+    margin-top: -4px;
+}
+#block7{
+    display: block;
+    width: 100%;
+    height:4px;
+    background-color: #f5c53d;
+    margin-top: -4px;
+}
+#block8{
+    display: block;
+    width: 100%;
+    height:4px;
+    background-color: #7eb66f;
+    margin-top: -4px;
+}
+#block9{
+    display: block;
+    width: 100%;
+    height:4px;
+    background-color: #7eb66f;
+    margin-top: -4px;
+}
+/*第六个图片装饰*/
+#spanbox{
+    display: block;
+    background-color: #71c5d3;
+}
+#block10{
+    display: block;
+    width: 33.4%;
+    height:4px;
+    background-color: #f5c53d;
+    margin-top: -4px;
+}
+#block11{
+    display: block;
+    width: 33.4%;
+    height:4px;
+    background-color: #7eb66f;
+    margin-top: -4px;
+    float: right;
+}
+/*填充图片与文字间的间隙*/
+#stuff{
+    height:20px;
+}
+#container h1{
+    font-size: 14px;
+    font-weight: 300;
+    color: #204a65;
+    font-family: "Museo 100";
+    text-align: left;
+}
+#container h2{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 11px;
+    color: #a2a39e;
+}
+/*与float属性一起使用*/
+.clear{
+    clear: both;
+}
+/*第二个section*/
+#blog{
+    width: 978px;
+    margin: 0px auto;
+    padding-bottom: 80px;
+}
+#combadiblog{
+    height: 104px;
+    margin-bottom: 40px;
+    background-image: url(../../../first-project/static/img/wave-pattern-hor-beige.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+}
+#bloglogo{
+    display: block;
+    width: 94px;
+    height: 104px;
+    margin: 0px auto;
+    background-image: url(../../../first-project/static/img/home-blog-badge.png)
+}
+#combadiblog a{
+    position: absolute;
+    right: 0px;
+    top: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #a2a39e;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: "myFirstFont";
+    text-decoration: none;
+}#blogcontent #blog1{
+    margin-left: 0px;
+}
+#blogcontent a{
+    display: block;
+    width: 306px;
+    float:left;
+    margin-left: 30px;
+    background-color: white;
+    text-decoration: none;
+}
+#blogcontent figure{
+    min-height: 230px;
+}
+#blogcontent hgroup{
+    display: block;
+    margin: 0px 30px 30px;
+    height: 250px;
+    position: relative;
+}
+#blogcontent hgroup h2{
+    font-family: "Museo 100";
+    font-size: 19px;
+    font-weight: 100px;
+    color: #5a6469;
+    
+}
+#blogcontent hgroup h4,#blogcontent hgroup h3{
+    font-family: "myFirstFont";
+    text-transform: uppercase;
+    font-size: 3px;    
+    letter-spacing: 1px;
+    color: #a2a39e;
+}
+#blogcontent hgroup h3{
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}
+#footerbox{
+    background-image: url(../../../first-project/static/img/wave-pattern-gray.png);
+    width: 100%;
+}
+#bigsection{
+    padding-top: 50px;
+    width: 978px;
+    margin:0px auto;
+    min-height:400px;
+}
+#bigsection #foot1{
+    margin-left: 0px;
+}
+#foot1,#foot2,#foot3{
+    float: left;
+    width: 306px;
+    margin-left: 30px;
+}
+#bigsection h1{
+    font-family: "myFirstFont";
+    font-size: 11px;
+    font-weight:700;
+    letter-spacing: 1px;
+    color: #e8554e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#bigsection h1 a{
+    color: #e8554e;
+}
+#bigsection a{
+    text-decoration: none;
+}
+#navigate a:hover{
+    color: #e8554e;
+}
+#navigate nav li{
+    list-style: none;
+    font-family: "myFirstFont";
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+#navigate nav li a{
+    color: #4e4e4d;
+}
+#nav2, #nav1{
+    display: block;
+    width: 138px;
+}
+#nav1{
+    float: left;
+}
+#nav2{
+    float: right;
+}
+#stuff2{
+    height: 30px;
+}
+#foot2 p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #4e4e4d;
+    font-family: "Museo 100";
+    font-weight: 300;
+}
+#email{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 215px;
+    height: 32px;
+    padding: 6px 8px;
+    font-family: "Museo 100"
+}
+#button{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 66px;
+    height: 32px;
+    background-color: #204a65;
+    font-family: "myFirstFont";
+    font-weight: 700;
+    color: white;
+    font-size: 11px;
+}
+#foot2 form{
+    margin-bottom: 50px;
+}
+#MasterCard{
+    display: inline-block;
+    height: 40px;
+    width: 63px;
+    background-image: url(../../../first-project/static/img/combined8.png);
+    background-position: 0px 0px;
+}
+#JCB{
+    display: inline-block;
+    height: 40px;
+    width: 52px;
+    margin-left: 5px;
+    background-image: url(../../../first-project/static/img/combined8.png);
+    background-position: -70px 0px;
+}
+#Maestro{
+    display: inline-block;
+    height: 40px;
+    width: 67px;
+    margin-left: 5px;
+    background-image: url(../../../first-project/static/img/combined8.png);
+    background-position: -131px 0px;
+}
+#VISA{
+    display: inline-block;
+    height: 40px;
+    width: 76px;
+    margin-left: 5px;
+    background-image: url(../../../first-project/static/img/combined8.png);
+    background-position: 178px 0px;
+}
+#WorldPay{
+    display: inline-block;
+    height: 40px;
+    width: 98px;
+    background-image: url(../../../first-project/static/img/combined8.png);
+    background-position: 98px 0px;
+}
+#bigsection #cwc{
+    margin-bottom: 120px;
+}
+#foot3 h2{
+    font-family: "Museo 100";
+    font-size: 14px;
+    color: #e8554e;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#facebook1,#twitter1,#google1,#pcall1{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../first-project/static/img/icons.png);
+    background-color: white;
+}
+#twitter1,#google1,#pcall1{
+    margin-left: 10px;
+}
+#facebook1{
+    background-position:-1233px -81px;
+
+}
+#twitter1{
+    background-position:-1297px -81px;
+}
+#google1{
+    background-position:-1361px -81px;
+}
+#pcall1{
+    background-position:-1425px -81px;
+}
+#c{
+    margin-top: 45px;
+}
+#foot3 h3{
+    line-height: 20px;
+    color: #4e4e4d;
+    font-family: "Museo 100";
+    font-weight: 300;
+    font-size: 13px;
+}
+#foot3 span{
+    font-family: "Museo 100";
+    font-size: 14px;
+    color: #e8554e;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#smallsection{
+    padding-top: 150px;
+    width: 978px;
+    margin: 0px auto;
+}
+#smallsection img{
+    display: block;
+}
+#footerbird{
+    margin:0px auto 150px;
+}
+#footerbrand{
+    margin-bottom: 30px;
+}
+#smallsection p{
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Museo";
+    font-weight: 300;
+    color: #a2a39e; 
+}
+#footertips{
+    padding-bottom: 20px;
+}
+#tip1{
+    float: left;
+}
+#tip2{
+    float: right;
+}
