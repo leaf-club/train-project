@@ -3,7 +3,7 @@ a{
 }
 
 .header{
-    width: 100%;
+    width: 1333px;
     height: 26px;
     background: #2d3539;
     padding: 6px 0;
@@ -12,16 +12,15 @@ a{
 
 .header-0{
     font-size: 17px; 
-    margin: 0 auto;
-    padding-left: 700px;
-    display: inline-block;
-    margin-right: 200px;
+    margin-left: 700px;
+
 }
 
 .header-1{
     position: relative;
     left: 50px;
-    top:4px;
+    top:4px; 
+    display: inline-block;
 }
 
 .header-2{
@@ -63,17 +62,19 @@ a{
     position: relative;
     left: 140px;
 }
+ /* 页眉部分结束 */
 
 .all-content{
     background-color: rgb(246, 247, 240);
+    width: 1333px;
 }
-
+/* 设置整个网页的背景颜色 */
 .top-content{
     height: 595px;
     background-image: url("../../first-project/static/img/home-background-mountains.jpg");
     background-repeat: no-repeat;
 }
-
+/* 插入背景图 */
 .t-nav{
     height: 73px;
     position: relative;
@@ -137,7 +138,7 @@ a{
     left: 115px;
     top: 12px;
 }
-
+/* 背景图内导航栏结束 */
 @font-face{
     font-family: myfont;
     src: url("../../first-project/static/font/museo/Museo100-Regular.otf")
@@ -191,7 +192,7 @@ h2{
     color: #4e4e4d;
     font-family: myfont ,Georgia,sans-serif;
 }
-
+/* 大小标题部分结束 */
 .mbs{
     width: 990px;
     height: 216px;
@@ -253,7 +254,7 @@ h2{
     left: 130px;
     top: -18px;
 }
-
+/* MBS部分结束 */
 .main-content-1{
     width: 990px;
     margin: 0px 171px;
@@ -347,7 +348,7 @@ h2{
     height: 100%;
     width: 33.333333333%;
 }
-
+/* 第一个主要内容图片集结束 */
 .main-content-2{
     width: 990px;
     margin: 0 171px;
@@ -438,10 +439,7 @@ h2{
     top: 60px;
     left: 160px;
 }
-
-.datetitle{
-    padding-left: 20px;
-}
+/* 第二个主要内容图片集结束 */
 
 .footer{
     width: 100%;
@@ -473,7 +471,6 @@ h2{
     float: left;
     margin-left: 36px;
 }
-
 
 .footer1-title{
     font-size: 11px;
