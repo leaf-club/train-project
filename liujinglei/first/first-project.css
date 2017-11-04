@@ -1,0 +1,539 @@
+/*引用外来的字体样式*/
+@font-face{
+    font-family: museo;
+    src: url('../../first-project/static/font/museo/Museo100-Regular.otf');
+}
+@font-face{
+    font-family: museo5;
+    src: url('../../first-project/static/font/museo/Museo500-Regular.otf');
+}
+@font-face{
+    font-family: geo;
+    src: url('../../first-project/static/font/georgia/Georgia.ttf')
+}
+/*整个界面的背景：灰色*/
+body{
+    margin-top: 0;
+    background-color:grey;
+}
+/*黑色条形栏*/
+.top{
+    background-color: #272727;
+    background-size: 80px 60px;
+    min-height: 25px;
+    color:#e0e0e0;
+    font-family: geo, Geneva, Tahoma, sans-serif;
+    font-size: 5px;
+    text-align: right;
+    margin: 0px 50px;
+    }
+.tel{
+    margin-right: 300px;
+    font-size: 15px;
+    position: center;
+    
+}
+.btn{
+    margin-top: -5px;
+}
+.ic{
+    margin-top: -10px;
+    margin-right: -200px;
+    float: right;
+    width: 150px;
+}
+.ic .icons1{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background-position: -1237px -21px;
+   margin-left: 1em;
+}
+.ic .icons2{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background-position: right;
+    background-position: -1301px -21px;
+    margin-left: 1em;   
+}
+.ic .icons3{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background-position: right;
+    background-position: -1365px -21px;
+    margin-left: 1em;   
+}
+.ic .icons4{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background-position: right;
+    background-position: -1429px -21px;
+    margin-left: 1em;   
+}
+ #callbutton{
+        float: right;
+        margin: -10px 220px 0px 10px;
+        width: 40px;
+        height: 20px;
+        text-align: center;  
+    }
+/*水平导航栏*/     
+    .guide{
+        list-style-type: none;
+        background-image: url(../../first-project/static/img/home-background-mountains.jpg);
+        float: center;
+        width: 1284px;
+        height: 600px;
+        margin: -15px 50px;   
+    }
+    li{
+        float: right;
+        font-family: geo, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    .grey{
+        color: grey;
+        text-decoration: none;
+        padding: 4px;
+    }
+    
+    .black{
+        text-decoration: none;
+        padding:4px;
+        color: black;
+          
+    }
+    #search{
+        text-align: center;
+        background: url(../../first-project/static/img/icons.png) no-repeat;
+        text-decoration: none;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        background-position: -784px -16px;
+        float: right;
+        margin-right: -150px;
+    }
+    #COM{
+        color: red;
+        font-family: geo, Geneva, Tahoma, sans-serif;
+        margin: -602px 200px 0px;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    /*the title of the content*/
+    #DIF{
+        text-align: center;
+        font-size: 40px;
+        color: #003d79;
+        font-family: geo, Geneva, Tahoma, sans-serif;
+        margin-top: 200px;
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+    .button{
+        float: center;
+        margin-left: 600px;
+        margin-top: 100px;
+    }
+    #btn1{
+
+          background: url(../../first-project/static/img/traits.png) no-repeat;
+          text-decoration: none;
+          display: inline-block;
+          width: 68px;
+          height: 74px;
+          background-position: -14px -11px;
+          margin-left: -250px;
+    }
+    #btn2{
+        background: url(../../first-project/static/img/traits.png) no-repeat;
+        text-decoration: none;
+        display: inline-block;
+        width: 68px;
+        height: 74px;
+        background-position: -110px -11px;
+        margin-left: 310px;
+    }
+    #btn3{background: url(../../first-project/static/img/traits.png) no-repeat;
+        text-decoration: none;
+        display: inline-block;
+        width: 68px;
+        height: 74px;
+        background-position: -206px -11px;
+        margin-left: 330px;
+        
+    }
+    #bird{
+          margin-top: -24px;
+    }
+    #bck mount{
+        margin-top: -100px;
+    }
+    #text{
+        color:grey;
+        font-family: museo,georgia,sans-serif;
+        text-align:center;
+        padding: 5px;
+    }
+    #ecr{
+        list-style-type: none;
+        margin: -60px 50px 0px 50px;
+        background-color: #f0f0f0;
+        width: 1285px;
+        height: 100px; 
+    }
+    #te{
+        float: center; 
+        font-family: museo,georgia,sans-serif;
+        padding:160px;
+        font-size: 12px;
+        margin-top: -100px;
+    }
+    #tf{
+        font-family: geo, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        float: center;
+        padding: 175px;
+        margin-top: -330px;
+        font-size: 20px; 
+  
+    }
+    /*gallery*/
+    #tt{
+        background-color: #f0f0f0;
+        display: block;
+        margin: 115px 50px 0px;
+        background-image: url('../../first-project/static/img/wave-pattern-hor-beige.png');
+        max-width: 1500px;
+        max-height: 9px;
+        text-orientation: center;
+        margin-left: 50px;
+        margin-top: -15px;    
+    }
+    .t1{
+        
+        color: RED;
+        font-size: 12px;
+        font-family: geo, Geneva, Tahoma, sans-serif;
+
+    }
+    #gallery{
+        background-color: #f0f0f0;
+        margin: 0px 50px 0px ;
+        float: left;
+    }
+    #ga{
+        list-style-type: none;
+        background-color: #f0f0f0;
+        margin: 0px 100px 0px 50px;
+        width: 1284px;
+        height: 400px;  
+    }
+    .gll{
+        font-family: museo, Geneva, Tahoma, sans-serif;
+        font-size: 15px; 
+        float: left;
+        padding: 5px;
+
+    }
+    .gy{
+        font-style:italic;
+        color: grey; 
+        font-size: 12px;
+    }
+    .picks1{
+           margin-left: 200px;
+    }
+    #pick1{
+        border-bottom: 3px solid #ffc107;
+    }
+    #pick2{
+        border-bottom: 3px solid #ffc107;
+    }
+    #pick3{
+        border-bottom: 3px solid rgb(0, 225, 255);
+    }
+    #pick4{
+        border-bottom: 3px solid rgb(125, 187, 25)
+    }
+    #pick5{
+        border-bottom: 3px solid #ffc107
+    }
+    #pick6{
+        border-bottom: 3px solid rgb(125, 187, 25);
+    }
+    #pick7{
+        border-bottom: 3px solid rgb(125, 187, 25);
+    }
+    #pick8{
+        border-bottom: 3px solid rgb(0, 225, 255);
+    }
+    /*blog*/
+    #blog{
+        background-image: url(../../first-project/static/img/wave-pattern-hor-beige.png);
+        background-color:#f0f0f0;
+        max-width: 1325px;
+        max-height: 9px; 
+        margin-left: 50px;
+        margin-top: -15px;
+    }
+    #hb{
+        margin: -50px 660px 0px;
+    }
+
+    .responsive{
+        background-color: #f0f0f0;
+        width: 1325px;
+        height: 220px;
+        margin-left: 50px;
+        margin-top: -15px;
+    }
+    .responsive3{
+        background-color: #f0f0f0;
+        width: 1325px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: -103px;
+    }
+    .desc{
+        background-color: white;
+        height: 200px;
+        width: 300px;
+        position: relative;
+        padding: -10px ; 
+        margin-left: 10px; 
+        margin-top: -10px; 
+    }
+#des1{
+    margin-left: 250px;
+}
+}
+    .date{
+        font-family: Georgia, 'Times New Roman', Times, sans-serif; 
+        font-size: 5px;
+        color: grey;
+        padding: 5px;
+    }
+    .review{
+        font-family: museo, Geneva, Tahoma, sans-serif; 
+        font-size: 20px;
+        padding: 5px;
+        color: black;    
+    }
+    .rm{
+        font-family: Georgia, 'Times New Roman', Times, sans-serif; 
+        font-size: 5px;
+        color: grey;
+        padding: 5px;
+        float: right;
+    }
+    .img{
+        float: left;   
+    }
+    #blog1{
+        margin: 100px 0px 0px 250px;    
+    }
+    #blog2{
+        margin: -85px 0px 0px 10px;
+    }
+    #blog3{
+        margin: -600px 0px 0px 10px;
+    }
+/*foot*/
+    .footer{
+    background-image: url(../../first-project/static/img/wave-pattern-gray.png);
+    min-height: 750px;
+    min-width: 1284px;
+    margin: -100px 50px;
+    list-style-type: none;
+}
+.f1{
+    float: left;
+    padding-right: 50px;
+    margin: 50px 0px 0px 200px;
+    font: 5px Georgia, 'Times New Roman', Times, sans-serif;
+    color:red;
+}
+#f2{
+    color: black;
+    font-family: museo5,'Times New Roman', Times, sans-serif;
+    margin-top: 25px;
+}
+#f3{
+    color: black;
+    margin-left: 50px;
+    font-family: museo5,'Times New Roman', Times, sans-serif;
+    margin-top: 25px;
+}
+#reg{
+    margin-left:-630px;
+    margin-top: 120px; 
+}
+#tta{
+    float: left;
+    margin-left:-630px;
+    margin-top: 150px; 
+}
+#rec{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: museo,'Times New Roman', Times, sans-serif;
+}
+#submit{
+    color: white;
+    background-color: rgb(14, 85, 124);
+}
+#sup{
+    margin-left: -320px;
+    margin-top: 120px;
+}
+#combadi{
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.s{
+    margin-top: -140px;
+    float: right;
+    margin-right: 270px;
+
+}
+.s .s1{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -1425px -81px;
+    margin-left: 1em;
+    
+}
+.s .s2{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -1361px -81px;
+    margin-left: 1em;
+    
+}
+.s .s3{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -1297px -81px;
+    margin-left: 1em;
+    
+}
+.s .s4{
+    background: url(../../first-project/static/img/icons.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: -1233px -81px;
+    margin-left: 1em;
+    
+}
+
+.pe{
+    font-family: museo,'Times New Roman', Times, sans-serif;
+    color: black;
+    margin-top: 15px;
+}
+.pr{
+    color: red;
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.c{
+float: left;
+margin-left: 180px;
+
+}
+.c .c1{
+   
+    background: url(../../first-project/static/img/combined8.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 63px;
+    height: 40px;
+    background-position: 0px 0px;
+    margin-left: 1em;
+    
+}
+.c .c2{
+   
+    background: url(../../first-project/static/img/combined8.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 52px;
+    height: 40px;
+    background-position: -70px 0px;
+    margin-left: 1em;
+}
+.c .c3{
+   
+    background: url(../../first-project/static/img/combined8.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 67px;
+    height: 40px;
+    background-position: -131px 0px;
+    margin-left: 0.5em;
+}
+.c .c4{
+    background: url(../../first-project/static/img/combined8.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 76px;
+    height: 45px;
+    background-position: -203px 0px;
+    margin-left: 0.5em;
+}
+.c .c5{
+    background: url(../../first-project/static/img/combined8.png) no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    width: 105px;
+    height: 45px;
+    background-position: -280px 0px;
+    margin-left: 1em;
+}
+#footbird{
+    margin-top: 100px;
+    margin-left: 480px;
+}
+#awww{
+    margin-top: 150px;
+    margin-left: 180px;
+
+}
+#footext{
+    margin-top: 30px;
+    margin-left:180px; 
+    font-size: 4px;
+    font-family: museo,'Times New Roman', Times, sans-serif;
+    color: grey;
+}
