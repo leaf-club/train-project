@@ -1,110 +1,105 @@
 /*mate*/
 .wrapper{width: 978px;margin: 0 auto;text-align: left;}
 body {
-	background-color:  #f6f7f0;
-	font-family: "museo", Georgia, serif;
-	color: #4e4e4d;
-	overflow-x: hidden;
+  background-color:  #f6f7f0;
+  font-family: "museo", Georgia, serif;
+  color: #4e4e4d;
+ /* overflow-x: hidden;*/
 }
 #page {
-    width: 978px;
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 #page #main_container {
-    width: 1498px;
-    margin: 0 auto;
-    margin-left: -260px;
-    background: #f6f7f0;
+  margin: 0 auto 
+  background: #f6f7f0;
 }
 /*header*/
 header {
-	background-color: #2D3539;
-	height:38px;
-	width: 1500px;
-	line-height: 40px;
-	color: #CCCDC7;
-	margin: 0 auto;
+  background-color: #2D3539;
+  height:38px;
+  line-height: 40px;
+  color: #CCCDC7;
+  margin: 0 auto;
 }
 header span{
-	width: 160px;
-	font-size: 17px;
-	position: absolute;right: 340px;
-	font-family: initial
+  width: 160px;
+  font-size: 17px;
+  position: absolute;right: 340px;
+  font-family: initial
 }
 .headerbar{
-	position: relative;
-	top: 0;right: 260px;
+  position: relative;
+  top: 0;right: 185px;
 }
 .headerlist{
-	overflow: hidden;
-	position: relative;
+  overflow: hidden;
+  position: relative;
 }
 .headerlist li{
-	float: left;
+  float: left;
 }
 .headerlist li a{
-	display: block;
-	width: 50px;height: 100%;
+  display: block;
+  width: 50px;height: 100%;
 }
 .headerlist #skype{
-	background: url(../../first-project/static/img/icons.png) 0 no-repeat;
-	width: 80px;height: 40px;
+  background: url(../../first-project/static/img/callbutton_24px.png) 0 no-repeat;
+  width: 80px;height: 40px;
 }
 .headerlist #facebook{
-	background: url(static/img/icons.png) -1220px -12px;
-	width: 50px;height: 40px;
+  background: url(../../first-project/static/img/icons.png) -1220px -12px;
+  width: 50px;height: 40px;
 }
 .headerlist #facebook a:hover{background: url(../../first-project/static/img/icons.png) -1220px -75px;}
 .headerlist #twitter{
-	background: url(static/img/icons.png) -1285px -12px;
-	width: 50px;height: 40px;
+  background: url(../../first-project/static/img/icons.png) -1285px -12px;
+  width: 50px;height: 40px;
 }
 .headerlist #twitter a:hover{background: url(../../first-project/static/img/icons.png) -1285px -75px;}
 .headerlist #google{
-	background: url(static/img/icons.png) -1350px -12px;
-	width: 50px;height: 40px;
+  background: url(../../first-project/static/img/icons.png) -1350px -12px;
+  width: 50px;height: 40px;
 }
 .headerlist #google a:hover{background: url(../../first-project/static/img/icons.png) -1350px -75px;}
 .headerlist #pinterset{
-	background: url(static/img/icons.png) -1415px -12px;
-	width: 50px;height: 40px;
+  background: url(../../first-project/static/img/icons.png) -1415px -12px;
+  width: 50px;height: 40px;
 }
 .headerlist #pinterset a:hover{background: url(../../first-project/static/img/icons.png) -1415px -75px;}
 
 /*top*/
 .top{
-	width: 1500px;
-	z-index: 50;
-	position: relative;
+  z-index: 50;
+  position: relative;
 }
 
 .top nav{
-	width: 980px;height: 50px;
-	margin: 0 auto;padding-top: 30px;
+  width: 980px;height: 50px;
+  margin: 0 auto;padding-top: 30px;
 }
-.top .nav_left{
-	background:url(static/img/combadi-logo-sans.png) 6px 15px no-repeat;
-	width: 140px;height: 50px;
-	float: left;
+.top .nav_left a{
+  background:url(../../first-project/static/img/combadi-logo-sans.png) 6px 15px no-repeat;
+  width: 150px;height: 50px;
+  float: left;
 }
 .top .nav_right{
-	float: right;
+  float: right;
 }
 .top .nav_right li{
-	float: left;
+  float: left;
 }
 .top .nav_right li a{
-	display: inline-block;
-	width: 50px;
-	text-transform: uppercase;
-	font-size: 1.2em;
-	font-family: georgia;
-	margin: 13px;
+  display: inline-block;
+  width: 50px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: georgia;
+  margin: 13px;
 }
 .nav_right_left a{color: #204A65;}
 .nav_right_right a{color: #A0B2B8;}
-#nav_search{background:url(static/img/icons.png) -780px -12px;}
+#nav_search{background:url(../../first-project/static/img/icons.png) -780px -12px;}
 #nav_search a{height: 46px;width: 50px;margin: 0;}
 .nav_dot{
     line-height: 40px;
@@ -113,41 +108,54 @@ header span{
 }
 
 #hero_container{
-	margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 #hero_container .mountain-view{
-	background: url(static/img/home-background-mountains.jpg);
-	height: 595px;
-	margin-top: -80px;
+  background: url(../../first-project/static/img/home-background-mountains.jpg);
+  height: 595px;
+  margin-top: -80px;
 }
 #hero_container .mountain-view h1{
-	width: 980px;
-	margin: 0 auto 30px;
-	padding-top: 190px;
+  width: 980px;
+  margin: 0 auto 30px;
+  padding-top: 190px;
 }
 #title span{
-	display: inline-block;
-	vertical-align: middle;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	padding-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-left: 20px;
 }
 #title #ht_come{
-	background: url(static/img/home-title-come.png) no-repeat;
-	width: 149px;height: 35px;
+  background: url(../../first-project/static/img/home-title-come.png) no-repeat;
+  width: 149px;height: 35px;
+  text-transform: uppercase;
 }
 #title #ht_back{
-	background: url(static/img/home-title-back.png) no-repeat;
-	width: 132px;height: 35px;
+  background: url(../../first-project/static/img/home-title-back.png) no-repeat;
+  width: 132px;height: 35px;
 }
 #title #ht_birdie{
-	background: url(static/img/home-title-birdie.png)no-repeat;
-	width: 151px;height: 151px;
+  background: url(../../first-project/static/img/home-title-birdie.png) 20px no-repeat;
+  width: 150px;height: 150px;
 }
 #title #ht_different{
-	background: url(static/img/home-title-different.png)no-repeat;
-	width: 282px;height: 35px;
+  background: url(../../first-project/static/img/home-title-different.png)no-repeat;
+  width: 282px;height: 35px;
 }
+.ht_text{
+  text-transform: uppercase;
+  font-weight: 900;
+    font-size: 45px;
+  line-height: 35px;
+  color: #204A65;
+}
+
+
+
+
+
 #hero_container .mountain-view h2{
     font-size: 23px;
     line-height: 30px;
@@ -158,12 +166,12 @@ header span{
 
 /*traits*/
 #hero_container .traits{
-	position: absolute;
-	left: 50%;
-	top: 650px;
-	margin-left: -489px;
-	width: 978px;
-	height: 112px;
+  position: absolute;
+  left: 50%;
+  top: 650px;
+  margin-left: -489px;
+  width: 978px;
+  height: 112px;
 }
 .traits_box {
     text-align: center;
@@ -197,42 +205,106 @@ header span{
 
 .traits_bar{border-top: 4px solid #000;}
 .traits_bar span{
-	display: block;
-	width: 68px;height: 74px;
-	margin: -40px auto 22px;
-    background-image: url(static/img/traits.png);
+  display: block;
+  width: 68px;height: 74px;
+  margin: -40px auto 22px;
+    background-image: url(../../first-project/static/img/traits.png);
     position: relative; 
 }
 .traits_bar .mind{
-	background-position:-14px -11px;
+  background-position:-14px -11px;
 }
 .mind .traits_bar{border-color: #71c5d3}
 .traits_bar .body{
-	background-position:-110px -11px;
+  background-position:-110px -11px;
 }
 .body .traits_bar{border-color: #f5c53d}
 .traits_bar .soul{
-	background-position:-206px -11px;
+  background-position:-206px -11px;
 }
 .soul .traits_bar{border-color: #7eb66f}
 
 /*picks*/
 #combadi_picks{
-	background:transparent url(static/img/wave-pattern-hor-beige.png) top left repeat-x;
-	padding: 50px 0;
+  background:transparent url(../../first-project/static/img/wave-pattern-hor-beige.png) top left repeat-x;
+  padding: 50px 0;
 }
 #combadi_picks h3{
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 1px;
-	color: #e8554e;
-	margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #e8554e;
+  margin-bottom: 20px;
 }
-#combadi_picks 
-.picks{
+#combadi_picks .picks{
     display: inline-block;
     width: 222px;
     height: 250px;
     margin-left: 20px;
+    margin-bottom: 20px;
     background-color: #EEE;
+    vertical-align: middle;
+}
+#combadi_picks .picks img{margin-bottom: 20px;}
+#combadi_picks .inline_first{margin-left: 0;}
+#combadi_picks .picks h1{
+  font-size: 14px;
+  font-weight: 300;
+  color: #204a65;
+  line-height: 20px;
+  word-spacing: 1px;
+}
+#combadi_picks .picks h2{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 11px;
+    color: #a2a39e;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+#combadi_picks .picks figcaption{position: relative;}
+#combadi_picks .picks .trait_bar{
+  position: absolute;
+  top:-23px;
+  width: 100%;
+}
+#combadi_picks .picks .trait_bar span{
+  display: inline-block;
+  height: 5px;
+  width: 100%;
+  float: left;
+}
+
+#combadi_picks .picks .trait_bar .mind{background-color: #69BAC8;}
+#combadi_picks .picks .trait_bar .body{background-color: #F5C53D;}
+#combadi_picks .picks .trait_bar .soul{background-color: #85C075;}
+#combadi_picks .picks .tb_1 span{width: 100%;}
+#combadi_picks .picks .tb_2 span{width: 50%;}
+#combadi_picks .picks .tb_3 span{width: 33%;}
+
+/*combadi_blogs*/
+#combadi_blogs{
+  background:transparent url(../../first-project/static/img/wave-pattern-hor-beige.png) top left repeat-x;
+  padding: 50px 0;
+  position: relative;
+}
+#combadi_blogs .blog_icon{
+  background: url(../../first-project/static/img/home-blog-badge.png);
+  width: 94px;
+  height: 104px;
+  margin: -97px auto 0;
+}
+#combadi_blogs #blog_link{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  height: 5px;
+  width: 10px;
+}
+#combadi_blogs .box{
+  display: flex;
+  justify-content: space-around;
+}
+#combadi_blogs .blogs{
+  width: 306px;
 }
