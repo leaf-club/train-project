@@ -25,16 +25,20 @@ header {
 header span{
   width: 160px;
   font-size: 17px;
-  position: absolute;right: 340px;
+  position: absolute;
+  right: 300px;
   font-family: initial
 }
 .headerbar{
+  width: 980px;
+  margin: 0 auto;
+  height: 40px;
   position: relative;
-  top: 0;right: 185px;
 }
 .headerlist{
-  overflow: hidden;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .headerlist li{
   float: left;
