@@ -31,6 +31,7 @@ header
     line-height: 40px;
 
     height: 38px;
+    width: 1349px;
     margin: 0 auto;
 
     color: #cccdc7;
@@ -198,7 +199,7 @@ header span
 }
 #hero_container .mountain-view
 {
-    width: 1398px;
+    width: 1349px;
     height: 595px;
     margin: 0 auto;
     margin-top: -80px;
