@@ -1,0 +1,813 @@
+/*mate*/
+.wrapper
+{
+    width: 978px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+body
+{
+    font-family: 'museo-slab', Georgia, serif;
+
+    color: #4e4e4d;
+    background-color: #f6f7f0;
+    /* overflow-x: hidden;*/
+}
+#page
+{
+    margin: 0 auto;
+
+    text-align: center;
+}
+#page #main_container
+{
+    margin: 0 auto;
+    background: #f6f7f0;
+}
+/*header*/
+header
+{
+    line-height: 40px;
+
+    height: 38px;
+    width: 1349px;
+    margin: 0 auto;
+
+    color: #cccdc7;
+    background-color: #2d3539;
+}
+header span
+{
+    font-family: initial;
+    font-size: 17px;
+
+    position: absolute;
+    right: 300px;
+
+    width: 160px;;
+}
+.headerbar
+{
+    position: relative;
+
+    width: 980px;
+    height: 40px;
+    margin: 0 auto;
+}
+.headerlist
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.headerlist li
+{
+    float: left;
+}
+.headerlist li a
+{
+    display: block;
+
+    width: 50px;
+    height: 100%;
+}
+.headerlist #skype
+{
+    width: 80px;
+    height: 40px;
+
+    background: url(../../first-project/static/img/callbutton_24px.png) 0 no-repeat;
+}
+.headerlist #facebook
+{
+    width: 50px;
+    height: 40px;
+
+    background: url(../../first-project/static/img/icons.png) -1220px -12px;
+}
+.headerlist #facebook a:hover
+{
+    background: url(../../first-project/static/img/icons.png) -1220px -75px;
+}
+.headerlist #twitter
+{
+    width: 50px;
+    height: 40px;
+
+    background: url(../../first-project/static/img/icons.png) -1285px -12px;
+}
+.headerlist #twitter a:hover
+{
+    background: url(../../first-project/static/img/icons.png) -1285px -75px;
+}
+.headerlist #google
+{
+    width: 50px;
+    height: 40px;
+
+    background: url(../../first-project/static/img/icons.png) -1350px -12px;
+}
+.headerlist #google a:hover
+{
+    background: url(../../first-project/static/img/icons.png) -1350px -75px;
+}
+.headerlist #pinterset
+{
+    width: 50px;
+    height: 40px;
+
+    background: url(../../first-project/static/img/icons.png) -1415px -12px;
+}
+.headerlist #pinterset a:hover
+{
+    background: url(../../first-project/static/img/icons.png) -1415px -75px;
+}
+
+/*top*/
+.top
+{
+    position: relative;
+    z-index: 50;
+}
+
+.top nav
+{
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.top .nav_left a
+{
+    float: left;
+
+    width: 150px;
+    height: 50px;
+
+    background: url(../../first-project/static/img/combadi-logo-sans.png) 6px 15px no-repeat;
+}
+.top .nav_right
+{
+    float: right;
+}
+.top .nav_right li
+{
+    float: left;
+}
+.top .nav_right li a
+{
+    font-family: georgia;
+    font-size: 1.2em;
+
+    display: inline-block;
+
+    width: 50px;
+    margin: 13px;
+
+    text-transform: uppercase;
+}
+.nav_right_left a
+{
+    color: #204a65;
+}
+.nav_right_right a
+{
+    color: #a0b2b8;
+}
+#nav_search
+{
+    background: url(../../first-project/static/img/icons.png) -780px -12px;
+}
+#nav_search a
+{
+    width: 50px;
+    height: 46px;
+    margin: 0;
+}
+.nav_dot
+{
+    font-size: 1.2em;
+    line-height: 40px;
+
+    color: #a0b2b8;
+}
+
+#hero_container
+{
+    margin-bottom: 150px;
+}
+#hero_container .mountain-view
+{
+    width: 1349px;
+    height: 595px;
+    margin: 0 auto;
+    margin-top: -80px;
+
+    background: url(../../first-project/static/img/home-background-mountains.jpg) no-repeat;
+}
+#hero_container .mountain-view h1
+{
+    width: 980px;
+    margin: 0 auto 30px;
+    padding-top: 190px;
+}
+#title span
+{
+    display: inline-block;
+
+    padding-left: 20px;
+
+    vertical-align: middle;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#title #ht_come
+{
+    width: 149px;
+    height: 35px;
+
+    text-transform: uppercase;
+
+    background: url(../../first-project/static/img/home-title-come.png) no-repeat;
+}
+#title #ht_back
+{
+    width: 132px;
+    height: 35px;
+
+    background: url(../../first-project/static/img/home-title-back.png) no-repeat;
+}
+#title #ht_birdie
+{
+    width: 150px;
+    height: 150px;
+
+    background: url(../../first-project/static/img/home-title-birdie.png) 20px no-repeat;
+}
+#title #ht_different
+{
+    width: 282px;
+    height: 35px;
+
+    background: url(../../first-project/static/img/home-title-different.png)no-repeat;
+}
+.ht_text
+{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 35px;
+
+    text-transform: uppercase;
+
+    color: #204a65;
+}
+#hero_container .mountain-view h2
+{
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+
+    width: 530px;
+    margin: 0 auto;
+}
+
+/*traits*/
+#hero_container .traits
+{
+    position: absolute;
+    top: 650px;
+    left: 50%;
+
+    width: 978px;
+    height: 112px;
+    margin-left: -489px;
+}
+.traits_box
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 326px;
+    height: 130px;
+
+    text-align: center;
+}
+.traits_box h4
+{
+    font-family: 'museo-slab', Georgia, serif;
+    font-weight: 300;
+    font-style: italic;
+
+    position: absolute;
+    bottom: 35px;
+
+    width: 100%;
+
+    color: #787876;
+}
+.traits_box h4 span
+{
+    font-family: 'brandon-grotesque', 'museo-slab', Georgia, serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 26px;
+
+    display: block;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #4e4e4d;;
+}
+.traits_box.mind
+{
+    left: -2px;
+}
+.traits_box.body
+{
+    left: 326px;
+}
+.traits_box.soul
+{
+    left: 654px;
+}
+
+.traits_bar
+{
+    border-top: 4px solid #000;
+}
+.traits_bar span
+{
+    position: relative;
+
+    display: block;
+
+    width: 68px;
+    height: 74px;
+    margin: -40px auto 22px;
+
+    background-image: url(../../first-project/static/img/traits.png);
+}
+.traits_bar .mind
+{
+    background-position: -14px -11px;
+}
+.mind .traits_bar
+{
+    border-color: #71c5d3;
+}
+.traits_bar .body
+{
+    background-position: -110px -11px;
+}
+.body .traits_bar
+{
+    border-color: #f5c53d;
+}
+.traits_bar .soul
+{
+    background-position: -206px -11px;
+}
+.soul .traits_bar
+{
+    border-color: #7eb66f;
+}
+
+/*picks*/
+#combadi_picks
+{
+    padding: 50px 0;
+
+    background: transparent url(../../first-project/static/img/wave-pattern-hor-beige.png) top left repeat-x;
+}
+#combadi_picks h3
+{
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #e8554e;
+}
+#combadi_picks .picks
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 222px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    vertical-align: middle;
+
+    background-color: #eee;
+}
+#combadi_picks .picks img
+{
+    margin-bottom: 20px;
+}
+#combadi_picks .inline_first
+{
+    margin-left: 0;
+}
+#combadi_picks .picks h1
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+
+    word-spacing: 1px;
+
+    color: #204a65;
+}
+#combadi_picks .picks h2
+{
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 20px;
+
+    word-spacing: 1px;
+
+    color: #a2a39e;
+}
+#combadi_picks .picks figcaption
+{
+    position: relative;
+}
+#combadi_picks .picks .trait_bar
+{
+    position: absolute;
+    top: -23px;
+
+    width: 100%;
+}
+#combadi_picks .picks .trait_bar span
+{
+    display: inline-block;
+    float: left;
+
+    width: 100%;
+    height: 5px;
+}
+#combadi_picks .picks .trait_bar .mind
+{
+    background-color: #69bac8;
+}
+#combadi_picks .picks .trait_bar .body
+{
+    background-color: #f5c53d;
+}
+#combadi_picks .picks .trait_bar .soul
+{
+    background-color: #85c075;
+}
+#combadi_picks .picks .tb_1 span
+{
+    width: 100%;
+}
+#combadi_picks .picks .tb_2 span
+{
+    width: 50%;
+}
+#combadi_picks .picks .tb_3 span
+{
+    width: 33%;
+}
+
+#combadi_picks .picks .offer_info
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    text-align: center;
+}
+#combadi_picks .picks .offer_info span
+{
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+
+    display: inline-block;
+
+    padding: 7px 13px 5px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: white;
+    background: #e8554e;
+}
+/*combadi_blogs*/
+#combadi_blogs
+{
+    position: relative;
+
+    margin-bottom: 25px;
+    padding: 0 0 50px;
+
+    background: transparent url(../../first-project/static/img/wave-pattern-hor-beige.png) left 47px repeat-x;
+}
+#combadi_blogs .blog_icon
+{
+    width: 94px;
+    height: 104px;
+    margin: 0 auto 40px;
+
+    background: url(../../first-project/static/img/home-blog-badge.png);
+}
+#combadi_blogs #blog_link
+{
+    font-weight: 700;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    width: 130px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #a2a39e;
+}
+#combadi_blogs .box
+{
+    display: flex;
+
+    justify-content: space-around;
+}
+#combadi_blogs .blogs
+{
+    width: 306px;
+    min-height: 425px;
+}
+#combadi_blogs .blogs a
+{
+    position: relative;
+
+    display: block;
+
+    height: 100%;
+    padding: 20px 25px;
+
+    background-color: #f1e5e5;
+}
+#combadi_blogs .blogs .img_wrap
+{
+    overflow: hidden;
+
+    width: 306px;
+    height: 180px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+#combadi_blogs .blogs h6
+{
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #a2a39e;
+}
+#combadi_blogs .blogs h2
+{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+
+    margin-bottom: 20px;
+
+    color: #204a65;
+}
+#combadi_blogs .blogs .read_more
+{
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #a2a39e;
+}
+#sitefooter
+{
+    background: #f1f2eb url(../../first-project/static/img/wave-pattern-gray.png) repeat;
+}
+#sitefooter .wrapper
+{
+    padding-top: 60px;
+}
+#sitefooter .box
+{
+    display: flex;
+
+    justify-content: space-between;
+}
+#sitefooter .footer_items
+{
+    width: 306px;
+}
+#sitefooter .footer_items h4,
+#sitefooter #footer_links .m a,
+#sitefooter #footer_links .mininav a
+{
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+
+    margin-bottom: 20px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #e8554e;
+}
+#sitefooter #footer_links .mininav
+{
+    width: 138px;
+}
+#sitefooter #footer_links .mininav a
+{
+    line-height: 20px;
+
+    color: #204a65;
+}
+#sitefooter #footer_links .m
+{
+    margin-top: 30px;
+}
+#sitefooter #footer_links .m a
+{
+    line-height: 20px;
+}
+#footer_newsletter p
+{
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+#sitefooter #footer_newsletter input[type=text]
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 215px;
+    height: 32px;
+    padding: 6px 8px;
+
+    vertical-align: middle;
+
+    background: white;
+}
+#sitefooter #footer_newsletter input[type=submit]
+{
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 66px;
+    height: 32px;
+    padding: 9px;
+
+    vertical-align: middle;
+
+    color: white;
+    background: #204a65;
+}
+#sitefooter #footer_newsletter .box
+{
+    flex-flow: row wrap;
+    justify-content: normal;
+}
+#sitefooter #footer_newsletter ul a
+{
+    display: inline-block;
+
+    height: 40px;
+
+    background: url(../../first-project/static/img/combined8.png);
+}
+#sitefooter #footer_newsletter #cards_icon1
+{
+    width: 63px;
+
+    background-position: 0 0;
+}
+#sitefooter #footer_newsletter #cards_icon2
+{
+    width: 51px;
+
+    background-position: -68px 0;
+}
+#sitefooter #footer_newsletter #cards_icon3
+{
+    width: 73px;
+
+    background-position: -126px 0;
+}
+#sitefooter #footer_newsletter #cards_icon4
+{
+    width: 80px;
+
+    background-position: -198px 0;
+}
+#sitefooter #footer_newsletter #cards_icon5
+{
+    width: 97px;
+
+    background-position: 97px 0;
+}
+#sitefooter #footer_socials .solinks
+{
+    width: 146px;
+}
+#sitefooter #footer_socials .box
+{
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: normal;
+}
+#sitefooter #footer_socials .solinks a
+{
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+
+    background: white url(../../first-project/static/img/icons.png);
+}
+#sitefooter #footer_socials .solinks #icon1
+{
+    background-position: -1233px 47px;
+}
+#sitefooter #footer_socials .solinks #icon2
+{
+    background-position: -1296px 47px;
+}
+#sitefooter #footer_socials .solinks #icon3
+{
+    background-position: -1359px 47px;
+}
+#sitefooter #footer_socials .solinks #icon4
+{
+    background-position: -1423px 47px;
+}
+#sitefooter #footer_socials #vcard
+{
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+
+    margin-top: 50px;
+}
+#sitefooter #footer_socials #vcard p
+{
+    line-height: 20px;
+}
+#sitefooter #footer_socials #vcard a
+{
+    color: #e8554e;
+}
+#sitefooter #logo
+{
+    padding: 120px 0 160px;
+
+    text-align: center;
+}
+#sitefooter #footer_bottom
+{
+    position: relative;
+}
+#sitefooter #footer_bottom p
+{
+    margin-bottom: 20px;
+}
+#sitefooter #footer_bottom #hbr
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
